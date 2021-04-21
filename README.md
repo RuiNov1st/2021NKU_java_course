@@ -2,3 +2,4 @@
 ## 2021Java course projects
 * 1.java模拟3D福彩
 * 2.java模拟游戏
+* 3.java模拟cache
