@@ -1,0 +1,5371 @@
+# Wed May 26 22:29-22:30
+
+Wed May 26 22:29:18 CST 2021 Thread1 Rent CD_rent2
+Wed May 26 22:29:18 CST 2021 CD_rent1 has been returned by Thread3
+RentThread4 Try Rent CD_rent3
+Wed May 26 22:29:18 CST 2021 Thread4 Rent CD_rent3
+Wed May 26 22:29:18 CST 2021 CD_rent2 has been returned by Thread1
+Wed May 26 22:29:18 CST 2021 CD_rent3 has been returned by Thread4
+Normal GetIn!
+Wed May 26 22:29:18 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread1 Try Sale CD_saled8 1
+Wed May 26 22:29:19 CST 2021 Thread1 Sale 1copies CD_saled8
+CD_saled8 Current Storage: 9
+saledThread2 Try Sale CD_saled1 3
+Wed May 26 22:29:19 CST 2021 Thread2 Sale 3copies CD_saled1
+CD_saled1 Current Storage: 7
+saledThread3 Try Sale CD_saled1 5
+Wed May 26 22:29:19 CST 2021 Thread3 Sale 5copies CD_saled1
+CD_saled1 Current Storage: 2
+saledThread4 Try Sale CD_saled5 5
+Wed May 26 22:29:19 CST 2021 Thread4 Sale 5copies CD_saled5
+CD_saled5 Current Storage: 5
+RentThread3 Try Rent CD_rent8
+Wed May 26 22:29:19 CST 2021 Thread3 Rent CD_rent8
+RentThread2 Try Rent CD_rent2
+Wed May 26 22:29:19 CST 2021 Thread2 Rent CD_rent2
+Wed May 26 22:29:19 CST 2021 CD_rent8 has been returned by Thread3
+Normal GetIn!
+Wed May 26 22:29:19 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread4 Try Rent CD_rent5
+Wed May 26 22:29:20 CST 2021 Thread4 Rent CD_rent5
+RentThread1 Try Rent CD_rent6
+Wed May 26 22:29:20 CST 2021 Thread1 Rent CD_rent6
+Wed May 26 22:29:20 CST 2021 CD_rent2 has been returned by Thread2
+saledThread2 Try Sale CD_saled9 5
+Wed May 26 22:29:20 CST 2021 Thread2 Sale 5copies CD_saled9
+CD_saled9 Current Storage: 5
+saledThread1 Try Sale CD_saled9 2
+Wed May 26 22:29:20 CST 2021 Thread1 Sale 2copies CD_saled9
+CD_saled9 Current Storage: 3
+saledThread3 Try Sale CD_saled5 3
+Wed May 26 22:29:20 CST 2021 Thread3 Sale 3copies CD_saled5
+CD_saled5 Current Storage: 7
+Wed May 26 22:29:20 CST 2021 CD_rent5 has been returned by Thread4
+Wed May 26 22:29:20 CST 2021 CD_rent6 has been returned by Thread1
+saledThread4 Try Sale CD_saled5 5
+Wed May 26 22:29:20 CST 2021 Thread4 Sale 5copies CD_saled5
+CD_saled5 Current Storage: 2
+Normal GetIn!
+Wed May 26 22:29:20 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread2 Try Rent CD_rent4
+Wed May 26 22:29:21 CST 2021 Thread2 Rent CD_rent4
+saledThread2 Try Sale CD_saled9 4
+Wed May 26 22:29:21 CST 2021 Thread2 Sale 4copies CD_saled9
+CD_saled9 Current Storage: 6
+saledThread1 Try Sale CD_saled1 5
+Wed May 26 22:29:21 CST 2021 Thread1 Sale 5copies CD_saled1
+CD_saled1 Current Storage: 5
+RentThread3 Try Rent CD_rent6
+Wed May 26 22:29:21 CST 2021 Thread3 Rent CD_rent6
+saledThread3 Try Sale CD_saled4 2
+Wed May 26 22:29:21 CST 2021 Thread3 Sale 2copies CD_saled4
+CD_saled4 Current Storage: 8
+Wed May 26 22:29:21 CST 2021 CD_rent4 has been returned by Thread2
+RentThread4 Try Rent CD_rent1
+Wed May 26 22:29:21 CST 2021 Thread4 Rent CD_rent1
+Wed May 26 22:29:21 CST 2021 CD_rent6 has been returned by Thread3
+Wed May 26 22:29:21 CST 2021 CD_rent1 has been returned by Thread4
+saledThread4 Try Sale CD_saled9 5
+Wed May 26 22:29:21 CST 2021 Thread4 Sale 5copies CD_saled9
+CD_saled9 Current Storage: 1
+Normal GetIn!
+Wed May 26 22:29:21 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread2 Try Sale CD_saled8 2
+Wed May 26 22:29:22 CST 2021 Thread2 Sale 2copies CD_saled8
+CD_saled8 Current Storage: 8
+saledThread1 Try Sale CD_saled8 1
+Wed May 26 22:29:22 CST 2021 Thread1 Sale 1copies CD_saled8
+CD_saled8 Current Storage: 7
+RentThread1 Try Rent CD_rent4
+Wed May 26 22:29:22 CST 2021 Thread1 Rent CD_rent4
+saledThread3 Try Sale CD_saled9 5
+Wed May 26 22:29:22 CST 2021 Thread3 Sale 5copies CD_saled9
+CD_saled9 Current Storage: 5
+RentThread2 Try Rent CD_rent4
+CD_rent4isn't avaliable
+CD_rent4 wait others to return 
+Wed May 26 22:29:22 CST 2021 CD_rent4 has been returned by Thread1
+RentThread3 Try Rent CD_rent3
+Wed May 26 22:29:22 CST 2021 Thread3 Rent CD_rent3
+Wed May 26 22:29:22 CST 2021 CD_rent3 has been returned by Thread3
+RentThread4 Try Rent CD_rent7
+Wed May 26 22:29:22 CST 2021 Thread4 Rent CD_rent7
+Normal GetIn!
+Wed May 26 22:29:22 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread4 Try Sale CD_saled6 5
+Wed May 26 22:29:23 CST 2021 Thread4 Sale 5copies CD_saled6
+CD_saled6 Current Storage: 5
+Wed May 26 22:29:23 CST 2021 CD_rent7 has been returned by Thread4
+saledThread2 Try Sale CD_saled6 4
+Wed May 26 22:29:23 CST 2021 Thread2 Sale 4copies CD_saled6
+CD_saled6 Current Storage: 1
+saledThread1 Try Sale CD_saled5 5
+Wed May 26 22:29:23 CST 2021 Thread1 Sale 5copies CD_saled5
+CD_saled5 Current Storage: 5
+saledThread3 Try Sale CD_saled2 2
+Wed May 26 22:29:23 CST 2021 Thread3 Sale 2copies CD_saled2
+CD_saled2 Current Storage: 8
+Wed May 26 22:29:23 CST 2021 Thread2 Rent CD_rent4
+Wed May 26 22:29:23 CST 2021 CD_rent4 has been returned by Thread2
+Normal GetIn!
+Wed May 26 22:29:23 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread1 Try Rent CD_rent7
+Wed May 26 22:29:24 CST 2021 Thread1 Rent CD_rent7
+saledThread4 Try Sale CD_saled2 1
+Wed May 26 22:29:24 CST 2021 Thread4 Sale 1copies CD_saled2
+CD_saled2 Current Storage: 9
+RentThread4 Try Rent CD_rent3
+Wed May 26 22:29:24 CST 2021 Thread4 Rent CD_rent3
+Wed May 26 22:29:24 CST 2021 CD_rent7 has been returned by Thread1
+saledThread2 Try Sale CD_saled4 3
+Wed May 26 22:29:24 CST 2021 Thread2 Sale 3copies CD_saled4
+CD_saled4 Current Storage: 7
+Wed May 26 22:29:24 CST 2021 CD_rent3 has been returned by Thread4
+saledThread1 Try Sale CD_saled10 4
+Wed May 26 22:29:24 CST 2021 Thread1 Sale 4copies CD_saled10
+CD_saled10 Current Storage: 6
+saledThread3 Try Sale CD_saled1 3
+Wed May 26 22:29:24 CST 2021 Thread3 Sale 3copies CD_saled1
+CD_saled1 Current Storage: 7
+RentThread3 Try Rent CD_rent4
+Wed May 26 22:29:24 CST 2021 Thread3 Rent CD_rent4
+RentThread2 Try Rent CD_rent4
+RentThread2 give up CD_rent4
+RentThread2 Try Rent CD_rent4
+RentThread2 give up CD_rent4
+RentThread2 Try Rent CD_rent5
+Normal GetIn!
+Wed May 26 22:29:24 CST 2021 Thread2 Rent CD_rent5
+Wed May 26 22:29:24 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:29:25 CST 2021 CD_rent4 has been returned by Thread3
+Wed May 26 22:29:25 CST 2021 CD_rent5 has been returned by Thread2
+saledThread4 Try Sale CD_saled4 2
+Wed May 26 22:29:25 CST 2021 Thread4 Sale 2copies CD_saled4
+CD_saled4 Current Storage: 8
+RentThread1 Try Rent CD_rent8
+Wed May 26 22:29:25 CST 2021 Thread1 Rent CD_rent8
+saledThread2 Try Sale CD_saled7 4
+Wed May 26 22:29:25 CST 2021 Thread2 Sale 4copies CD_saled7
+CD_saled7 Current Storage: 6
+saledThread1 Try Sale CD_saled7 3
+Wed May 26 22:29:25 CST 2021 Thread1 Sale 3copies CD_saled7
+CD_saled7 Current Storage: 3
+Wed May 26 22:29:25 CST 2021 CD_rent8 has been returned by Thread1
+saledThread3 Try Sale CD_saled6 5
+Wed May 26 22:29:25 CST 2021 Thread3 Sale 5copies CD_saled6
+CD_saled6 Current Storage: 5
+Normal GetIn!
+Wed May 26 22:29:25 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread3 Try Rent CD_rent9
+Wed May 26 22:29:26 CST 2021 Thread3 Rent CD_rent9
+RentThread4 Try Rent CD_rent5
+Wed May 26 22:29:26 CST 2021 Thread4 Rent CD_rent5
+saledThread4 Try Sale CD_saled6 1
+Wed May 26 22:29:26 CST 2021 Thread4 Sale 1copies CD_saled6
+CD_saled6 Current Storage: 9
+Wed May 26 22:29:26 CST 2021 CD_rent9 has been returned by Thread3
+RentThread2 Try Rent CD_rent5
+RentThread2 give up CD_rent5
+RentThread2 Try Rent CD_rent4
+Wed May 26 22:29:26 CST 2021 Thread2 Rent CD_rent4
+Wed May 26 22:29:26 CST 2021 CD_rent5 has been returned by Thread4
+saledThread2 Try Sale CD_saled10 2
+Wed May 26 22:29:26 CST 2021 Thread2 Sale 2copies CD_saled10
+CD_saled10 Current Storage: 8
+saledThread1 Try Sale CD_saled1 4
+Wed May 26 22:29:26 CST 2021 Thread1 Sale 4copies CD_saled1
+CD_saled1 Current Storage: 6
+Wed May 26 22:29:26 CST 2021 CD_rent4 has been returned by Thread2
+RentThread1 Try Rent CD_rent8
+Wed May 26 22:29:26 CST 2021 Thread1 Rent CD_rent8
+saledThread3 Try Sale CD_saled8 2
+Wed May 26 22:29:26 CST 2021 Thread3 Sale 2copies CD_saled8
+CD_saled8 Current Storage: 8
+Normal GetIn!
+Wed May 26 22:29:26 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:29:27 CST 2021 CD_rent8 has been returned by Thread1
+RentThread3 Try Rent CD_rent7
+Wed May 26 22:29:27 CST 2021 Thread3 Rent CD_rent7
+saledThread4 Try Sale CD_saled9 4
+Wed May 26 22:29:27 CST 2021 Thread4 Sale 4copies CD_saled9
+CD_saled9 Current Storage: 6
+RentThread4 Try Rent CD_rent9
+Wed May 26 22:29:27 CST 2021 Thread4 Rent CD_rent9
+saledThread2 Try Sale CD_saled2 2
+Wed May 26 22:29:27 CST 2021 Thread2 Sale 2copies CD_saled2
+CD_saled2 Current Storage: 8
+Wed May 26 22:29:27 CST 2021 CD_rent7 has been returned by Thread3
+Wed May 26 22:29:27 CST 2021 CD_rent9 has been returned by Thread4
+saledThread1 Try Sale CD_saled2 3
+Wed May 26 22:29:27 CST 2021 Thread1 Sale 3copies CD_saled2
+CD_saled2 Current Storage: 5
+Normal GetIn!
+Wed May 26 22:29:27 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread3 Try Sale CD_saled4 2
+Wed May 26 22:29:28 CST 2021 Thread3 Sale 2copies CD_saled4
+CD_saled4 Current Storage: 8
+RentThread2 Try Rent CD_rent8
+Wed May 26 22:29:28 CST 2021 Thread2 Rent CD_rent8
+RentThread1 Try Rent CD_rent2
+Wed May 26 22:29:28 CST 2021 Thread1 Rent CD_rent2
+Wed May 26 22:29:28 CST 2021 CD_rent8 has been returned by Thread2
+Wed May 26 22:29:28 CST 2021 CD_rent2 has been returned by Thread1
+saledThread4 Try Sale CD_saled4 4
+Wed May 26 22:29:28 CST 2021 Thread4 Sale 4copies CD_saled4
+CD_saled4 Current Storage: 4
+RentThread3 Try Rent CD_rent4
+Wed May 26 22:29:28 CST 2021 Thread3 Rent CD_rent4
+saledThread2 Try Sale CD_saled1 4
+Wed May 26 22:29:28 CST 2021 Thread2 Sale 4copies CD_saled1
+CD_saled1 Current Storage: 6
+Wed May 26 22:29:28 CST 2021 CD_rent4 has been returned by Thread3
+saledThread1 Try Sale CD_saled4 1
+Wed May 26 22:29:28 CST 2021 Thread1 Sale 1copies CD_saled4
+CD_saled4 Current Storage: 3
+Normal GetIn!
+Wed May 26 22:29:28 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread3 Try Sale CD_saled4 2
+Wed May 26 22:29:29 CST 2021 Thread3 Sale 2copies CD_saled4
+CD_saled4 Current Storage: 8
+RentThread2 Try Rent CD_rent3
+Wed May 26 22:29:29 CST 2021 Thread2 Rent CD_rent3
+RentThread1 Try Rent CD_rent10
+Wed May 26 22:29:29 CST 2021 Thread1 Rent CD_rent10
+saledThread4 Try Sale CD_saled8 5
+Wed May 26 22:29:29 CST 2021 Thread4 Sale 5copies CD_saled8
+CD_saled8 Current Storage: 5
+Wed May 26 22:29:29 CST 2021 CD_rent3 has been returned by Thread2
+Wed May 26 22:29:29 CST 2021 CD_rent10 has been returned by Thread1
+RentThread4 Try Rent CD_rent4
+Wed May 26 22:29:29 CST 2021 Thread4 Rent CD_rent4
+RentThread3 Try Rent CD_rent5
+Wed May 26 22:29:29 CST 2021 Thread3 Rent CD_rent5
+saledThread2 Try Sale CD_saled9 2
+Wed May 26 22:29:29 CST 2021 Thread2 Sale 2copies CD_saled9
+CD_saled9 Current Storage: 8
+saledThread1 Try Sale CD_saled8 5
+Wed May 26 22:29:29 CST 2021 Thread1 Sale 5copies CD_saled8
+CD_saled8 Current Storage: 0
+Normal GetIn!
+Wed May 26 22:29:29 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:29:30 CST 2021 CD_rent4 has been returned by Thread4
+Wed May 26 22:29:30 CST 2021 CD_rent5 has been returned by Thread3
+saledThread3 Try Sale CD_saled1 4
+Wed May 26 22:29:30 CST 2021 Thread3 Sale 4copies CD_saled1
+CD_saled1 Current Storage: 6
+saledThread4 Try Sale CD_saled10 1
+Wed May 26 22:29:30 CST 2021 Thread4 Sale 1copies CD_saled10
+CD_saled10 Current Storage: 9
+RentThread2 Try Rent CD_rent2
+Wed May 26 22:29:30 CST 2021 Thread2 Rent CD_rent2
+RentThread1 Try Rent CD_rent9
+Wed May 26 22:29:30 CST 2021 Thread1 Rent CD_rent9
+Normal GetIn!
+saledThread1 Try Sale CD_saled3 2
+Wed May 26 22:29:30 CST 2021 GetIn Start:
+Wed May 26 22:29:30 CST 2021 Thread1 Sale 2copies CD_saled3
+CD_saled3 Current Storage: 8
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:29:31 CST 2021 CD_rent2 has been returned by Thread2
+saledThread2 Try Sale CD_saled5 2
+Wed May 26 22:29:31 CST 2021 Thread2 Sale 2copies CD_saled5
+CD_saled5 Current Storage: 8
+Wed May 26 22:29:31 CST 2021 CD_rent9 has been returned by Thread1
+RentThread4 Try Rent CD_rent8
+Wed May 26 22:29:31 CST 2021 Thread4 Rent CD_rent8
+RentThread3 Try Rent CD_rent8
+RentThread3 give up CD_rent8
+Wed May 26 22:29:31 CST 2021 CD_rent8 has been returned by Thread4
+saledThread3 Try Sale CD_saled3 3
+Wed May 26 22:29:31 CST 2021 Thread3 Sale 3copies CD_saled3
+CD_saled3 Current Storage: 7
+saledThread4 Try Sale CD_saled8 2
+Wed May 26 22:29:31 CST 2021 Thread4 Sale 2copies CD_saled8
+CD_saled8 Current Storage: 8
+Normal GetIn!
+Wed May 26 22:29:32 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread3 Try Rent CD_rent9
+Wed May 26 22:29:32 CST 2021 Thread3 Rent CD_rent9
+RentThread2 Try Rent CD_rent2
+Wed May 26 22:29:32 CST 2021 Thread2 Rent CD_rent2
+saledThread1 Try Sale CD_saled8 2
+Wed May 26 22:29:32 CST 2021 Thread1 Sale 2copies CD_saled8
+CD_saled8 Current Storage: 8
+saledThread2 Try Sale CD_saled3 4
+Wed May 26 22:29:32 CST 2021 Thread2 Sale 4copies CD_saled3
+CD_saled3 Current Storage: 6
+RentThread1 Try Rent CD_rent2
+CD_rent2isn't avaliable
+CD_rent2 wait others to return 
+Wed May 26 22:29:32 CST 2021 CD_rent2 has been returned by Thread2
+Wed May 26 22:29:32 CST 2021 CD_rent9 has been returned by Thread3
+RentThread4 Try Rent CD_rent6
+Wed May 26 22:29:32 CST 2021 Thread4 Rent CD_rent6
+saledThread3 Try Sale CD_saled4 4
+Wed May 26 22:29:32 CST 2021 Thread3 Sale 4copies CD_saled4
+CD_saled4 Current Storage: 6
+Wed May 26 22:29:32 CST 2021 CD_rent6 has been returned by Thread4
+saledThread4 Try Sale CD_saled5 1
+Wed May 26 22:29:32 CST 2021 Thread4 Sale 1copies CD_saled5
+CD_saled5 Current Storage: 9
+Normal GetIn!
+Wed May 26 22:29:33 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:29:33 CST 2021 Thread1 Rent CD_rent2
+RentThread2 Try Rent CD_rent8
+Wed May 26 22:29:33 CST 2021 Thread2 Rent CD_rent8
+saledThread1 Try Sale CD_saled6 1
+Wed May 26 22:29:33 CST 2021 Thread1 Sale 1copies CD_saled6
+CD_saled6 Current Storage: 9
+saledThread2 Try Sale CD_saled3 5
+Wed May 26 22:29:33 CST 2021 Thread2 Sale 5copies CD_saled3
+CD_saled3 Current Storage: 5
+RentThread3 Try Rent CD_rent8
+RentThread3 give up CD_rent8
+Wed May 26 22:29:33 CST 2021 CD_rent2 has been returned by Thread1
+RentThread3 Try Rent CD_rent1
+Wed May 26 22:29:33 CST 2021 Thread3 Rent CD_rent1
+Wed May 26 22:29:33 CST 2021 CD_rent8 has been returned by Thread2
+saledThread3 Try Sale CD_saled6 1
+Wed May 26 22:29:33 CST 2021 Thread3 Sale 1copies CD_saled6
+CD_saled6 Current Storage: 8
+Wed May 26 22:29:33 CST 2021 CD_rent1 has been returned by Thread3
+saledThread4 Try Sale CD_saled1 2
+Wed May 26 22:29:33 CST 2021 Thread4 Sale 2copies CD_saled1
+CD_saled1 Current Storage: 8
+Normal GetIn!
+Wed May 26 22:29:34 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread2 Try Sale CD_saled10 4
+Wed May 26 22:29:34 CST 2021 Thread2 Sale 4copies CD_saled10
+CD_saled10 Current Storage: 6
+saledThread1 Try Sale CD_saled6 2
+Wed May 26 22:29:34 CST 2021 Thread1 Sale 2copies CD_saled6
+CD_saled6 Current Storage: 8
+RentThread4 Try Rent CD_rent8
+Wed May 26 22:29:34 CST 2021 Thread4 Rent CD_rent8
+RentThread1 Try Rent CD_rent7
+Wed May 26 22:29:34 CST 2021 Thread1 Rent CD_rent7
+RentThread2 Try Rent CD_rent9
+Wed May 26 22:29:34 CST 2021 Thread2 Rent CD_rent9
+saledThread3 Try Sale CD_saled1 4
+Wed May 26 22:29:34 CST 2021 Thread3 Sale 4copies CD_saled1
+CD_saled1 Current Storage: 6
+Wed May 26 22:29:34 CST 2021 CD_rent7 has been returned by Thread1
+Wed May 26 22:29:34 CST 2021 CD_rent8 has been returned by Thread4
+Wed May 26 22:29:34 CST 2021 CD_rent9 has been returned by Thread2
+saledThread4 Try Sale CD_saled1 5
+Wed May 26 22:29:34 CST 2021 Thread4 Sale 5copies CD_saled1
+CD_saled1 Current Storage: 1
+Normal GetIn!
+Wed May 26 22:29:35 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread2 Try Sale CD_saled5 5
+Wed May 26 22:29:35 CST 2021 Thread2 Sale 5copies CD_saled5
+CD_saled5 Current Storage: 5
+saledThread1 Try Sale CD_saled5 2
+Wed May 26 22:29:35 CST 2021 Thread1 Sale 2copies CD_saled5
+CD_saled5 Current Storage: 3
+saledThread3 Try Sale CD_saled8 1
+Wed May 26 22:29:35 CST 2021 Thread3 Sale 1copies CD_saled8
+CD_saled8 Current Storage: 9
+RentThread1 Try Rent CD_rent10
+Wed May 26 22:29:35 CST 2021 Thread1 Rent CD_rent10
+RentThread3 Try Rent CD_rent9
+Wed May 26 22:29:35 CST 2021 Thread3 Rent CD_rent9
+RentThread4 Try Rent CD_rent4
+Wed May 26 22:29:35 CST 2021 Thread4 Rent CD_rent4
+Normal GetIn!
+Wed May 26 22:29:36 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread2 Try Rent CD_rent1
+Wed May 26 22:29:36 CST 2021 Thread2 Rent CD_rent1
+saledThread4 Try Sale CD_saled2 1
+Wed May 26 22:29:36 CST 2021 Thread4 Sale 1copies CD_saled2
+CD_saled2 Current Storage: 9
+Wed May 26 22:29:36 CST 2021 CD_rent9 has been returned by Thread3
+Wed May 26 22:29:36 CST 2021 CD_rent10 has been returned by Thread1
+Wed May 26 22:29:36 CST 2021 CD_rent4 has been returned by Thread4
+Wed May 26 22:29:36 CST 2021 CD_rent1 has been returned by Thread2
+saledThread2 Try Sale CD_saled1 3
+Wed May 26 22:29:36 CST 2021 Thread2 Sale 3copies CD_saled1
+CD_saled1 Current Storage: 7
+saledThread1 Try Sale CD_saled5 2
+Wed May 26 22:29:36 CST 2021 Thread1 Sale 2copies CD_saled5
+CD_saled5 Current Storage: 8
+saledThread3 Try Sale CD_saled5 1
+Wed May 26 22:29:36 CST 2021 Thread3 Sale 1copies CD_saled5
+CD_saled5 Current Storage: 7
+Normal GetIn!
+Wed May 26 22:29:37 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread4 Try Sale CD_saled2 5
+Wed May 26 22:29:37 CST 2021 Thread4 Sale 5copies CD_saled2
+CD_saled2 Current Storage: 5
+RentThread3 Try Rent CD_rent4
+Wed May 26 22:29:37 CST 2021 Thread3 Rent CD_rent4
+RentThread1 Try Rent CD_rent8
+Wed May 26 22:29:37 CST 2021 Thread1 Rent CD_rent8
+RentThread4 Try Rent CD_rent6
+Wed May 26 22:29:37 CST 2021 Thread4 Rent CD_rent6
+RentThread2 Try Rent CD_rent8
+RentThread2 give up CD_rent8
+Wed May 26 22:29:37 CST 2021 CD_rent4 has been returned by Thread3
+Wed May 26 22:29:37 CST 2021 CD_rent8 has been returned by Thread1
+Wed May 26 22:29:37 CST 2021 CD_rent6 has been returned by Thread4
+saledThread2 Try Sale CD_saled8 4
+Wed May 26 22:29:37 CST 2021 Thread2 Sale 4copies CD_saled8
+CD_saled8 Current Storage: 6
+saledThread1 Try Sale CD_saled10 5
+Wed May 26 22:29:37 CST 2021 Thread1 Sale 5copies CD_saled10
+CD_saled10 Current Storage: 5
+saledThread3 Try Sale CD_saled6 1
+Wed May 26 22:29:37 CST 2021 Thread3 Sale 1copies CD_saled6
+CD_saled6 Current Storage: 9
+Normal GetIn!
+Wed May 26 22:29:38 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread4 Try Sale CD_saled8 3
+Wed May 26 22:29:38 CST 2021 Thread4 Sale 3copies CD_saled8
+CD_saled8 Current Storage: 7
+RentThread2 Try Rent CD_rent4
+Wed May 26 22:29:38 CST 2021 Thread2 Rent CD_rent4
+RentThread3 Try Rent CD_rent9
+Wed May 26 22:29:38 CST 2021 Thread3 Rent CD_rent9
+RentThread1 Try Rent CD_rent9
+CD_rent9isn't avaliable
+CD_rent9 wait others to return 
+Wed May 26 22:29:38 CST 2021 CD_rent9 has been returned by Thread3
+RentThread4 Try Rent CD_rent2
+Wed May 26 22:29:38 CST 2021 Thread4 Rent CD_rent2
+Wed May 26 22:29:38 CST 2021 CD_rent4 has been returned by Thread2
+saledThread1 Try Sale CD_saled9 5
+Wed May 26 22:29:38 CST 2021 Thread1 Sale 5copies CD_saled9
+CD_saled9 Current Storage: 5
+saledThread2 Try Sale CD_saled4 2
+Wed May 26 22:29:38 CST 2021 Thread2 Sale 2copies CD_saled4
+CD_saled4 Current Storage: 8
+Wed May 26 22:29:38 CST 2021 CD_rent2 has been returned by Thread4
+Normal GetIn!
+Wed May 26 22:29:39 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread3 Try Sale CD_saled10 1
+Wed May 26 22:29:39 CST 2021 Thread3 Sale 1copies CD_saled10
+CD_saled10 Current Storage: 9
+saledThread4 Try Sale CD_saled4 1
+Wed May 26 22:29:39 CST 2021 Thread4 Sale 1copies CD_saled4
+CD_saled4 Current Storage: 9
+Wed May 26 22:29:39 CST 2021 Thread1 Rent CD_rent9
+RentThread3 Try Rent CD_rent9
+RentThread3 give up CD_rent9
+RentThread3 Try Rent CD_rent1
+Wed May 26 22:29:39 CST 2021 Thread3 Rent CD_rent1
+RentThread2 Try Rent CD_rent1
+CD_rent1isn't avaliable
+CD_rent1 wait others to return 
+Wed May 26 22:29:39 CST 2021 CD_rent1 has been returned by Thread3
+saledThread2 Try Sale CD_saled1 1
+Wed May 26 22:29:39 CST 2021 Thread2 Sale 1copies CD_saled1
+CD_saled1 Current Storage: 9
+saledThread1 Try Sale CD_saled4 2
+Wed May 26 22:29:39 CST 2021 Thread1 Sale 2copies CD_saled4
+CD_saled4 Current Storage: 7
+Wed May 26 22:29:39 CST 2021 CD_rent9 has been returned by Thread1
+Normal GetIn!
+Wed May 26 22:29:40 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread3 Try Sale CD_saled2 3
+Wed May 26 22:29:40 CST 2021 Thread3 Sale 3copies CD_saled2
+CD_saled2 Current Storage: 7
+saledThread4 Try Sale CD_saled2 1
+Wed May 26 22:29:40 CST 2021 Thread4 Sale 1copies CD_saled2
+CD_saled2 Current Storage: 6
+Wed May 26 22:29:40 CST 2021 Thread2 Rent CD_rent1
+RentThread4 Try Rent CD_rent1
+CD_rent1isn't avaliable
+CD_rent1 wait others to return 
+Wed May 26 22:29:40 CST 2021 CD_rent1 has been returned by Thread2
+saledThread2 Try Sale CD_saled4 4
+Wed May 26 22:29:40 CST 2021 Thread2 Sale 4copies CD_saled4
+CD_saled4 Current Storage: 6
+RentThread3 Try Rent CD_rent8
+Wed May 26 22:29:40 CST 2021 Thread3 Rent CD_rent8
+saledThread1 Try Sale CD_saled7 5
+Wed May 26 22:29:41 CST 2021 Thread1 Sale 5copies CD_saled7
+CD_saled7 Current Storage: 5
+Normal GetIn!
+Wed May 26 22:29:41 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread1 Try Rent CD_rent9
+Wed May 26 22:29:41 CST 2021 Thread1 Rent CD_rent9
+Wed May 26 22:29:41 CST 2021 CD_rent8 has been returned by Thread3
+saledThread3 Try Sale CD_saled6 3
+Wed May 26 22:29:41 CST 2021 Thread3 Sale 3copies CD_saled6
+CD_saled6 Current Storage: 7
+Wed May 26 22:29:41 CST 2021 CD_rent9 has been returned by Thread1
+saledThread4 Try Sale CD_saled1 1
+Wed May 26 22:29:41 CST 2021 Thread4 Sale 1copies CD_saled1
+CD_saled1 Current Storage: 9
+Wed May 26 22:29:41 CST 2021 Thread4 Rent CD_rent1
+RentThread2 Try Rent CD_rent6
+Wed May 26 22:29:42 CST 2021 Thread2 Rent CD_rent6
+Normal GetIn!
+Wed May 26 22:29:42 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread2 Try Sale CD_saled4 1
+Wed May 26 22:29:42 CST 2021 Thread2 Sale 1copies CD_saled4
+CD_saled4 Current Storage: 9
+Wed May 26 22:29:42 CST 2021 CD_rent1 has been returned by Thread4
+saledThread1 Try Sale CD_saled6 2
+Wed May 26 22:29:42 CST 2021 Thread1 Sale 2copies CD_saled6
+CD_saled6 Current Storage: 8
+Wed May 26 22:29:42 CST 2021 CD_rent6 has been returned by Thread2
+saledThread3 Try Sale CD_saled9 5
+Wed May 26 22:29:42 CST 2021 Thread3 Sale 5copies CD_saled9
+CD_saled9 Current Storage: 5
+RentThread3 Try Rent CD_rent5
+Wed May 26 22:29:42 CST 2021 Thread3 Rent CD_rent5
+RentThread1 Try Rent CD_rent10
+Wed May 26 22:29:42 CST 2021 Thread1 Rent CD_rent10
+Wed May 26 22:29:42 CST 2021 CD_rent5 has been returned by Thread3
+saledThread4 Try Sale CD_saled5 3
+Wed May 26 22:29:42 CST 2021 Thread4 Sale 3copies CD_saled5
+CD_saled5 Current Storage: 7
+Wed May 26 22:29:42 CST 2021 CD_rent10 has been returned by Thread1
+Normal GetIn!
+Wed May 26 22:29:43 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread2 Try Sale CD_saled10 3
+Wed May 26 22:29:43 CST 2021 Thread2 Sale 3copies CD_saled10
+CD_saled10 Current Storage: 7
+RentThread4 Try Rent CD_rent6
+Wed May 26 22:29:43 CST 2021 Thread4 Rent CD_rent6
+saledThread1 Try Sale CD_saled3 3
+Wed May 26 22:29:43 CST 2021 Thread1 Sale 3copies CD_saled3
+CD_saled3 Current Storage: 7
+saledThread3 Try Sale CD_saled8 1
+Wed May 26 22:29:43 CST 2021 Thread3 Sale 1copies CD_saled8
+CD_saled8 Current Storage: 9
+Wed May 26 22:29:43 CST 2021 CD_rent6 has been returned by Thread4
+RentThread2 Try Rent CD_rent5
+Wed May 26 22:29:43 CST 2021 Thread2 Rent CD_rent5
+RentThread3 Try Rent CD_rent8
+Wed May 26 22:29:43 CST 2021 Thread3 Rent CD_rent8
+RentThread1 Try Rent CD_rent3
+Wed May 26 22:29:43 CST 2021 Thread1 Rent CD_rent3
+Wed May 26 22:29:43 CST 2021 CD_rent5 has been returned by Thread2
+saledThread4 Try Sale CD_saled6 2
+Wed May 26 22:29:43 CST 2021 Thread4 Sale 2copies CD_saled6
+CD_saled6 Current Storage: 8
+Wed May 26 22:29:43 CST 2021 CD_rent8 has been returned by Thread3
+Normal GetIn!
+Wed May 26 22:29:44 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:29:44 CST 2021 CD_rent3 has been returned by Thread1
+saledThread2 Try Sale CD_saled6 5
+Wed May 26 22:29:44 CST 2021 Thread2 Sale 5copies CD_saled6
+CD_saled6 Current Storage: 5
+saledThread3 Try Sale CD_saled4 4
+Wed May 26 22:29:44 CST 2021 Thread3 Sale 4copies CD_saled4
+CD_saled4 Current Storage: 6
+saledThread1 Try Sale CD_saled7 3
+Wed May 26 22:29:44 CST 2021 Thread1 Sale 3copies CD_saled7
+CD_saled7 Current Storage: 7
+RentThread2 Try Rent CD_rent8
+Wed May 26 22:29:44 CST 2021 Thread2 Rent CD_rent8
+RentThread4 Try Rent CD_rent8
+CD_rent8isn't avaliable
+CD_rent8 wait others to return 
+Wed May 26 22:29:44 CST 2021 CD_rent8 has been returned by Thread2
+saledThread4 Try Sale CD_saled2 1
+Wed May 26 22:29:45 CST 2021 Thread4 Sale 1copies CD_saled2
+CD_saled2 Current Storage: 9
+Normal GetIn!
+Wed May 26 22:29:45 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread3 Try Rent CD_rent1
+Wed May 26 22:29:45 CST 2021 Thread3 Rent CD_rent1
+RentThread1 Try Rent CD_rent10
+Wed May 26 22:29:45 CST 2021 Thread1 Rent CD_rent10
+Wed May 26 22:29:45 CST 2021 CD_rent1 has been returned by Thread3
+saledThread2 Try Sale CD_saled6 2
+Wed May 26 22:29:45 CST 2021 CD_rent10 has been returned by Thread1
+Wed May 26 22:29:45 CST 2021 Thread2 Sale 2copies CD_saled6
+CD_saled6 Current Storage: 8
+saledThread3 Try Sale CD_saled9 3
+Wed May 26 22:29:45 CST 2021 Thread3 Sale 3copies CD_saled9
+CD_saled9 Current Storage: 7
+saledThread1 Try Sale CD_saled1 3
+Wed May 26 22:29:45 CST 2021 Thread1 Sale 3copies CD_saled1
+CD_saled1 Current Storage: 7
+Wed May 26 22:29:45 CST 2021 Thread4 Rent CD_rent8
+Normal GetIn!
+Wed May 26 22:29:46 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread2 Try Rent CD_rent2
+Wed May 26 22:29:46 CST 2021 Thread2 Rent CD_rent2
+Wed May 26 22:29:46 CST 2021 CD_rent8 has been returned by Thread4
+saledThread4 Try Sale CD_saled5 1
+Wed May 26 22:29:46 CST 2021 Thread4 Sale 1copies CD_saled5
+CD_saled5 Current Storage: 9
+Wed May 26 22:29:46 CST 2021 CD_rent2 has been returned by Thread2
+RentThread3 Try Rent CD_rent7
+Wed May 26 22:29:46 CST 2021 Thread3 Rent CD_rent7
+saledThread2 Try Sale CD_saled1 4
+Wed May 26 22:29:46 CST 2021 Thread2 Sale 4copies CD_saled1
+CD_saled1 Current Storage: 6
+saledThread3 Try Sale CD_saled9 4
+Wed May 26 22:29:46 CST 2021 Thread3 Sale 4copies CD_saled9
+CD_saled9 Current Storage: 6
+RentThread1 Try Rent CD_rent5
+Wed May 26 22:29:46 CST 2021 Thread1 Rent CD_rent5
+saledThread1 Try Sale CD_saled8 5
+Wed May 26 22:29:46 CST 2021 Thread1 Sale 5copies CD_saled8
+CD_saled8 Current Storage: 5
+Wed May 26 22:29:46 CST 2021 CD_rent7 has been returned by Thread3
+Wed May 26 22:29:46 CST 2021 CD_rent5 has been returned by Thread1
+Normal GetIn!
+Wed May 26 22:29:47 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread4 Try Rent CD_rent4
+Wed May 26 22:29:47 CST 2021 Thread4 Rent CD_rent4
+saledThread4 Try Sale CD_saled2 1
+Wed May 26 22:29:47 CST 2021 Thread4 Sale 1copies CD_saled2
+CD_saled2 Current Storage: 9
+Wed May 26 22:29:47 CST 2021 CD_rent4 has been returned by Thread4
+RentThread2 Try Rent CD_rent2
+Wed May 26 22:29:47 CST 2021 Thread2 Rent CD_rent2
+saledThread2 Try Sale CD_saled7 5
+Wed May 26 22:29:47 CST 2021 Thread2 Sale 5copies CD_saled7
+CD_saled7 Current Storage: 5
+saledThread3 Try Sale CD_saled3 5
+Wed May 26 22:29:47 CST 2021 Thread3 Sale 5copies CD_saled3
+CD_saled3 Current Storage: 5
+saledThread1 Try Sale CD_saled3 2
+Wed May 26 22:29:47 CST 2021 Thread1 Sale 2copies CD_saled3
+CD_saled3 Current Storage: 3
+Wed May 26 22:29:47 CST 2021 CD_rent2 has been returned by Thread2
+RentThread1 Try Rent CD_rent6
+Wed May 26 22:29:47 CST 2021 Thread1 Rent CD_rent6
+RentThread3 Try Rent CD_rent7
+Wed May 26 22:29:47 CST 2021 Thread3 Rent CD_rent7
+Normal GetIn!
+Wed May 26 22:29:48 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:29:48 CST 2021 CD_rent6 has been returned by Thread1
+Wed May 26 22:29:48 CST 2021 CD_rent7 has been returned by Thread3
+saledThread4 Try Sale CD_saled5 4
+Wed May 26 22:29:48 CST 2021 Thread4 Sale 4copies CD_saled5
+CD_saled5 Current Storage: 6
+saledThread2 Try Sale CD_saled6 1
+Wed May 26 22:29:48 CST 2021 Thread2 Sale 1copies CD_saled6
+CD_saled6 Current Storage: 9
+saledThread3 Try Sale CD_saled4 5
+Wed May 26 22:29:48 CST 2021 Thread3 Sale 5copies CD_saled4
+CD_saled4 Current Storage: 5
+saledThread1 Try Sale CD_saled1 4
+Wed May 26 22:29:48 CST 2021 Thread1 Sale 4copies CD_saled1
+CD_saled1 Current Storage: 6
+RentThread2 Try Rent CD_rent2
+Wed May 26 22:29:48 CST 2021 Thread2 Rent CD_rent2
+Normal GetIn!
+Wed May 26 22:29:49 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:29:49 CST 2021 CD_rent2 has been returned by Thread2
+RentThread4 Try Rent CD_rent7
+Wed May 26 22:29:49 CST 2021 Thread4 Rent CD_rent7
+RentThread1 Try Rent CD_rent1
+Wed May 26 22:29:49 CST 2021 Thread1 Rent CD_rent1
+RentThread3 Try Rent CD_rent5
+Wed May 26 22:29:49 CST 2021 Thread3 Rent CD_rent5
+Wed May 26 22:29:49 CST 2021 CD_rent7 has been returned by Thread4
+Wed May 26 22:29:49 CST 2021 CD_rent1 has been returned by Thread1
+Wed May 26 22:29:49 CST 2021 CD_rent5 has been returned by Thread3
+saledThread4 Try Sale CD_saled5 1
+Wed May 26 22:29:49 CST 2021 Thread4 Sale 1copies CD_saled5
+CD_saled5 Current Storage: 9
+saledThread2 Try Sale CD_saled4 3
+Wed May 26 22:29:49 CST 2021 Thread2 Sale 3copies CD_saled4
+CD_saled4 Current Storage: 7
+saledThread3 Try Sale CD_saled5 1
+Wed May 26 22:29:49 CST 2021 Thread3 Sale 1copies CD_saled5
+CD_saled5 Current Storage: 8
+saledThread1 Try Sale CD_saled7 3
+Wed May 26 22:29:49 CST 2021 Thread1 Sale 3copies CD_saled7
+CD_saled7 Current Storage: 7
+Normal GetIn!
+Wed May 26 22:29:50 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread2 Try Rent CD_rent10
+Wed May 26 22:29:50 CST 2021 Thread2 Rent CD_rent10
+Wed May 26 22:29:50 CST 2021 CD_rent10 has been returned by Thread2
+RentThread4 Try Rent CD_rent3
+Wed May 26 22:29:50 CST 2021 Thread4 Rent CD_rent3
+saledThread4 Try Sale CD_saled1 1
+Wed May 26 22:29:50 CST 2021 Thread4 Sale 1copies CD_saled1
+CD_saled1 Current Storage: 9
+RentThread3 Try Rent CD_rent5
+Wed May 26 22:29:50 CST 2021 Thread3 Rent CD_rent5
+RentThread1 Try Rent CD_rent3
+CD_rent3isn't avaliable
+CD_rent3 wait others to return 
+Wed May 26 22:29:50 CST 2021 CD_rent3 has been returned by Thread4
+Wed May 26 22:29:50 CST 2021 CD_rent5 has been returned by Thread3
+saledThread2 Try Sale CD_saled10 4
+Wed May 26 22:29:50 CST 2021 Thread2 Sale 4copies CD_saled10
+CD_saled10 Current Storage: 6
+saledThread3 Try Sale CD_saled8 4
+Wed May 26 22:29:50 CST 2021 Thread3 Sale 4copies CD_saled8
+CD_saled8 Current Storage: 6
+saledThread1 Try Sale CD_saled4 3
+Wed May 26 22:29:50 CST 2021 Thread1 Sale 3copies CD_saled4
+CD_saled4 Current Storage: 7
+Normal GetIn!
+Wed May 26 22:29:51 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread2 Try Rent CD_rent7
+Wed May 26 22:29:51 CST 2021 Thread2 Rent CD_rent7
+saledThread4 Try Sale CD_saled5 3
+Wed May 26 22:29:51 CST 2021 Thread4 Sale 3copies CD_saled5
+CD_saled5 Current Storage: 7
+Wed May 26 22:29:51 CST 2021 Thread1 Rent CD_rent3
+RentThread4 Try Rent CD_rent4
+Wed May 26 22:29:51 CST 2021 Thread4 Rent CD_rent4
+Wed May 26 22:29:51 CST 2021 CD_rent7 has been returned by Thread2
+Wed May 26 22:29:51 CST 2021 CD_rent3 has been returned by Thread1
+saledThread3 Try Sale CD_saled5 3
+Wed May 26 22:29:51 CST 2021 Thread3 Sale 3copies CD_saled5
+CD_saled5 Current Storage: 4
+Wed May 26 22:29:51 CST 2021 CD_rent4 has been returned by Thread4
+saledThread2 Try Sale CD_saled10 4
+Wed May 26 22:29:52 CST 2021 Thread2 Sale 4copies CD_saled10
+CD_saled10 Current Storage: 6
+Normal GetIn!
+Wed May 26 22:29:52 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread1 Try Sale CD_saled9 4
+Wed May 26 22:29:52 CST 2021 Thread1 Sale 4copies CD_saled9
+CD_saled9 Current Storage: 6
+saledThread4 Try Sale CD_saled2 5
+Wed May 26 22:29:52 CST 2021 Thread4 Sale 5copies CD_saled2
+CD_saled2 Current Storage: 5
+RentThread2 Try Rent CD_rent10
+RentThread3 Try Rent CD_rent3
+Wed May 26 22:29:52 CST 2021 Thread3 Rent CD_rent3
+Wed May 26 22:29:52 CST 2021 Thread2 Rent CD_rent10
+RentThread1 Try Rent CD_rent6
+Wed May 26 22:29:52 CST 2021 Thread1 Rent CD_rent6
+saledThread3 Try Sale CD_saled2 1
+Wed May 26 22:29:53 CST 2021 Thread3 Sale 1copies CD_saled2
+CD_saled2 Current Storage: 4
+Normal GetIn!
+Wed May 26 22:29:53 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread2 Try Sale CD_saled8 4
+Wed May 26 22:29:53 CST 2021 Thread2 Sale 4copies CD_saled8
+CD_saled8 Current Storage: 6
+RentThread4 Try Rent CD_rent7
+Wed May 26 22:29:53 CST 2021 Thread4 Rent CD_rent7
+Wed May 26 22:29:53 CST 2021 CD_rent10 has been returned by Thread2
+Wed May 26 22:29:53 CST 2021 CD_rent3 has been returned by Thread3
+Wed May 26 22:29:53 CST 2021 CD_rent6 has been returned by Thread1
+saledThread1 Try Sale CD_saled4 3
+Wed May 26 22:29:53 CST 2021 Thread1 Sale 3copies CD_saled4
+CD_saled4 Current Storage: 7
+Wed May 26 22:29:53 CST 2021 CD_rent7 has been returned by Thread4
+saledThread4 Try Sale CD_saled10 5
+Wed May 26 22:29:53 CST 2021 Thread4 Sale 5copies CD_saled10
+CD_saled10 Current Storage: 5
+Normal GetIn!
+Wed May 26 22:29:54 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread3 Try Sale CD_saled1 5
+Wed May 26 22:29:54 CST 2021 Thread3 Sale 5copies CD_saled1
+CD_saled1 Current Storage: 5
+saledThread2 Try Sale CD_saled6 5
+Wed May 26 22:29:54 CST 2021 Thread2 Sale 5copies CD_saled6
+CD_saled6 Current Storage: 5
+RentThread3 Try Rent CD_rent1
+Wed May 26 22:29:54 CST 2021 Thread3 Rent CD_rent1
+RentThread2 Try Rent CD_rent9
+Wed May 26 22:29:54 CST 2021 Thread2 Rent CD_rent9
+RentThread1 Try Rent CD_rent6
+Wed May 26 22:29:54 CST 2021 Thread1 Rent CD_rent6
+saledThread1 Try Sale CD_saled3 3
+Wed May 26 22:29:54 CST 2021 Thread1 Sale 3copies CD_saled3
+CD_saled3 Current Storage: 7
+RentThread4 Try Rent CD_rent5
+Wed May 26 22:29:54 CST 2021 Thread4 Rent CD_rent5
+Wed May 26 22:29:54 CST 2021 CD_rent1 has been returned by Thread3
+Wed May 26 22:29:54 CST 2021 CD_rent9 has been returned by Thread2
+Wed May 26 22:29:54 CST 2021 CD_rent6 has been returned by Thread1
+Wed May 26 22:29:54 CST 2021 CD_rent5 has been returned by Thread4
+saledThread4 Try Sale CD_saled5 1
+Wed May 26 22:29:54 CST 2021 Thread4 Sale 1copies CD_saled5
+CD_saled5 Current Storage: 9
+Normal GetIn!
+Wed May 26 22:29:55 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread3 Try Sale CD_saled5 4
+Wed May 26 22:29:55 CST 2021 Thread3 Sale 4copies CD_saled5
+CD_saled5 Current Storage: 6
+saledThread2 Try Sale CD_saled3 4
+Wed May 26 22:29:55 CST 2021 Thread2 Sale 4copies CD_saled3
+CD_saled3 Current Storage: 6
+RentThread3 Try Rent CD_rent8
+Wed May 26 22:29:55 CST 2021 Thread3 Rent CD_rent8
+saledThread1 Try Sale CD_saled5 4
+Wed May 26 22:29:55 CST 2021 Thread1 Sale 4copies CD_saled5
+CD_saled5 Current Storage: 2
+RentThread2 Try Rent CD_rent6
+Wed May 26 22:29:55 CST 2021 Thread2 Rent CD_rent6
+RentThread1 Try Rent CD_rent5
+Wed May 26 22:29:55 CST 2021 Thread1 Rent CD_rent5
+Wed May 26 22:29:55 CST 2021 CD_rent8 has been returned by Thread3
+RentThread4 Try Rent CD_rent7
+Wed May 26 22:29:55 CST 2021 Thread4 Rent CD_rent7
+Wed May 26 22:29:55 CST 2021 CD_rent6 has been returned by Thread2
+Wed May 26 22:29:55 CST 2021 CD_rent5 has been returned by Thread1
+Wed May 26 22:29:56 CST 2021 CD_rent7 has been returned by Thread4
+Normal GetIn!
+Wed May 26 22:29:56 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread4 Try Sale CD_saled10 3
+Wed May 26 22:29:56 CST 2021 Thread4 Sale 3copies CD_saled10
+CD_saled10 Current Storage: 7
+saledThread3 Try Sale CD_saled10 2
+Wed May 26 22:29:56 CST 2021 Thread3 Sale 2copies CD_saled10
+CD_saled10 Current Storage: 5
+saledThread2 Try Sale CD_saled7 5
+Wed May 26 22:29:56 CST 2021 Thread2 Sale 5copies CD_saled7
+CD_saled7 Current Storage: 5
+saledThread1 Try Sale CD_saled2 4
+Wed May 26 22:29:56 CST 2021 Thread1 Sale 4copies CD_saled2
+CD_saled2 Current Storage: 6
+RentThread2 Try Rent CD_rent3
+Wed May 26 22:29:56 CST 2021 Thread2 Rent CD_rent3
+RentThread3 Try Rent CD_rent7
+Wed May 26 22:29:57 CST 2021 Thread3 Rent CD_rent7
+RentThread4 Try Rent CD_rent5
+Wed May 26 22:29:57 CST 2021 Thread4 Rent CD_rent5
+Wed May 26 22:29:57 CST 2021 CD_rent3 has been returned by Thread2
+Normal GetIn!
+Wed May 26 22:29:57 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread1 Try Rent CD_rent10
+Wed May 26 22:29:57 CST 2021 Thread1 Rent CD_rent10
+saledThread4 Try Sale CD_saled4 1
+Wed May 26 22:29:57 CST 2021 Thread4 Sale 1copies CD_saled4
+CD_saled4 Current Storage: 9
+Wed May 26 22:29:57 CST 2021 CD_rent7 has been returned by Thread3
+Wed May 26 22:29:57 CST 2021 CD_rent5 has been returned by Thread4
+Wed May 26 22:29:57 CST 2021 CD_rent10 has been returned by Thread1
+saledThread3 Try Sale CD_saled5 4
+Wed May 26 22:29:57 CST 2021 Thread3 Sale 4copies CD_saled5
+CD_saled5 Current Storage: 6
+saledThread2 Try Sale CD_saled8 3
+Wed May 26 22:29:57 CST 2021 Thread2 Sale 3copies CD_saled8
+CD_saled8 Current Storage: 7
+saledThread1 Try Sale CD_saled7 5
+Wed May 26 22:29:57 CST 2021 Thread1 Sale 5copies CD_saled7
+CD_saled7 Current Storage: 5
+Normal GetIn!
+Wed May 26 22:29:58 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread2 Try Rent CD_rent1
+Wed May 26 22:29:58 CST 2021 Thread2 Rent CD_rent1
+saledThread4 Try Sale CD_saled4 5
+Wed May 26 22:29:58 CST 2021 Thread4 Sale 5copies CD_saled4
+CD_saled4 Current Storage: 5
+RentThread3 Try Rent CD_rent6
+Wed May 26 22:29:58 CST 2021 Thread3 Rent CD_rent6
+Wed May 26 22:29:58 CST 2021 CD_rent1 has been returned by Thread2
+saledThread3 Try Sale CD_saled2 3
+Wed May 26 22:29:58 CST 2021 Thread3 Sale 3copies CD_saled2
+CD_saled2 Current Storage: 7
+RentThread1 Try Rent CD_rent8
+Wed May 26 22:29:58 CST 2021 Thread1 Rent CD_rent8
+saledThread2 Try Sale CD_saled8 1
+Wed May 26 22:29:58 CST 2021 Thread2 Sale 1copies CD_saled8
+CD_saled8 Current Storage: 9
+Wed May 26 22:29:58 CST 2021 CD_rent6 has been returned by Thread3
+Wed May 26 22:29:58 CST 2021 CD_rent8 has been returned by Thread1
+saledThread1 Try Sale CD_saled2 1
+Wed May 26 22:29:59 CST 2021 Thread1 Sale 1copies CD_saled2
+CD_saled2 Current Storage: 6
+Normal GetIn!
+Wed May 26 22:29:59 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread4 Try Rent CD_rent1
+Wed May 26 22:29:59 CST 2021 Thread4 Rent CD_rent1
+saledThread4 Try Sale CD_saled8 1
+Wed May 26 22:29:59 CST 2021 Thread4 Sale 1copies CD_saled8
+CD_saled8 Current Storage: 9
+RentThread2 Try Rent CD_rent9
+Wed May 26 22:29:59 CST 2021 Thread2 Rent CD_rent9
+saledThread3 Try Sale CD_saled6 2
+Wed May 26 22:29:59 CST 2021 Thread3 Sale 2copies CD_saled6
+CD_saled6 Current Storage: 8
+Wed May 26 22:29:59 CST 2021 CD_rent1 has been returned by Thread4
+Wed May 26 22:29:59 CST 2021 CD_rent9 has been returned by Thread2
+saledThread2 Try Sale CD_saled8 2
+Wed May 26 22:29:59 CST 2021 Thread2 Sale 2copies CD_saled8
+CD_saled8 Current Storage: 7
+Normal GetIn!
+Wed May 26 22:30:00 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread1 Try Sale CD_saled8 5
+Wed May 26 22:30:00 CST 2021 Thread1 Sale 5copies CD_saled8
+CD_saled8 Current Storage: 5
+saledThread4 Try Sale CD_saled2 4
+Wed May 26 22:30:00 CST 2021 Thread4 Sale 4copies CD_saled2
+CD_saled2 Current Storage: 6
+RentThread3 Try Rent CD_rent1
+Wed May 26 22:30:00 CST 2021 Thread3 Rent CD_rent1
+RentThread1 Try Rent CD_rent9
+Wed May 26 22:30:00 CST 2021 Thread1 Rent CD_rent9
+RentThread2 Try Rent CD_rent10
+Wed May 26 22:30:00 CST 2021 Thread2 Rent CD_rent10
+RentThread4 Try Rent CD_rent10
+RentThread4 give up CD_rent10
+saledThread2 Try Sale CD_saled1 1
+Wed May 26 22:30:00 CST 2021 Thread2 Sale 1copies CD_saled1
+CD_saled1 Current Storage: 9
+saledThread3 Try Sale CD_saled10 2
+Wed May 26 22:30:00 CST 2021 Thread3 Sale 2copies CD_saled10
+CD_saled10 Current Storage: 8
+RentThread4 Try Rent CD_rent6
+Wed May 26 22:30:00 CST 2021 Thread4 Rent CD_rent6
+Wed May 26 22:30:00 CST 2021 CD_rent1 has been returned by Thread3
+Wed May 26 22:30:00 CST 2021 CD_rent10 has been returned by Thread2
+Wed May 26 22:30:00 CST 2021 CD_rent9 has been returned by Thread1
+Normal GetIn!
+Wed May 26 22:30:01 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:30:01 CST 2021 CD_rent6 has been returned by Thread4
+saledThread1 Try Sale CD_saled5 3
+Wed May 26 22:30:01 CST 2021 Thread1 Sale 3copies CD_saled5
+CD_saled5 Current Storage: 7
+saledThread4 Try Sale CD_saled1 2
+Wed May 26 22:30:01 CST 2021 Thread4 Sale 2copies CD_saled1
+CD_saled1 Current Storage: 8
+saledThread3 Try Sale CD_saled8 5
+Wed May 26 22:30:01 CST 2021 Thread3 Sale 5copies CD_saled8
+CD_saled8 Current Storage: 5
+saledThread2 Try Sale CD_saled7 2
+Wed May 26 22:30:01 CST 2021 Thread2 Sale 2copies CD_saled7
+CD_saled7 Current Storage: 8
+RentThread1 Try Rent CD_rent7
+Wed May 26 22:30:02 CST 2021 Thread1 Rent CD_rent7
+Normal GetIn!
+Wed May 26 22:30:02 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread2 Try Rent CD_rent6
+Wed May 26 22:30:02 CST 2021 Thread2 Rent CD_rent6
+RentThread3 Try Rent CD_rent6
+CD_rent6isn't avaliable
+CD_rent6 wait others to return 
+Wed May 26 22:30:02 CST 2021 CD_rent6 has been returned by Thread2
+saledThread1 Try Sale CD_saled7 2
+Wed May 26 22:30:02 CST 2021 Thread1 Sale 2copies CD_saled7
+CD_saled7 Current Storage: 8
+Wed May 26 22:30:02 CST 2021 CD_rent7 has been returned by Thread1
+saledThread4 Try Sale CD_saled3 2
+Wed May 26 22:30:02 CST 2021 Thread4 Sale 2copies CD_saled3
+CD_saled3 Current Storage: 8
+saledThread3 Try Sale CD_saled7 2
+Wed May 26 22:30:02 CST 2021 Thread3 Sale 2copies CD_saled7
+CD_saled7 Current Storage: 6
+saledThread2 Try Sale CD_saled6 3
+Wed May 26 22:30:02 CST 2021 Thread2 Sale 3copies CD_saled6
+CD_saled6 Current Storage: 7
+Normal GetIn!
+Wed May 26 22:30:03 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:30:03 CST 2021 Thread3 Rent CD_rent6
+RentThread4 Try Rent CD_rent6
+RentThread4 give up CD_rent6
+RentThread4 Try Rent CD_rent1
+Wed May 26 22:30:03 CST 2021 Thread4 Rent CD_rent1
+RentThread2 Try Rent CD_rent5
+Wed May 26 22:30:03 CST 2021 Thread2 Rent CD_rent5
+saledThread1 Try Sale CD_saled4 3
+Wed May 26 22:30:03 CST 2021 Thread1 Sale 3copies CD_saled4
+CD_saled4 Current Storage: 7
+RentThread1 Try Rent CD_rent6
+RentThread1 give up CD_rent6
+Wed May 26 22:30:03 CST 2021 CD_rent6 has been returned by Thread3
+Wed May 26 22:30:03 CST 2021 CD_rent5 has been returned by Thread2
+RentThread1 Try Rent CD_rent9
+Wed May 26 22:30:03 CST 2021 Thread1 Rent CD_rent9
+Wed May 26 22:30:03 CST 2021 CD_rent1 has been returned by Thread4
+Wed May 26 22:30:03 CST 2021 CD_rent9 has been returned by Thread1
+saledThread3 Try Sale CD_saled10 4
+Wed May 26 22:30:03 CST 2021 Thread3 Sale 4copies CD_saled10
+CD_saled10 Current Storage: 6
+saledThread4 Try Sale CD_saled10 4
+Wed May 26 22:30:03 CST 2021 Thread4 Sale 4copies CD_saled10
+CD_saled10 Current Storage: 2
+saledThread2 Try Sale CD_saled9 1
+Wed May 26 22:30:04 CST 2021 Thread2 Sale 1copies CD_saled9
+CD_saled9 Current Storage: 9
+Normal GetIn!
+Wed May 26 22:30:04 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread3 Try Rent CD_rent10
+Wed May 26 22:30:04 CST 2021 Thread3 Rent CD_rent10
+saledThread1 Try Sale CD_saled10 5
+Wed May 26 22:30:04 CST 2021 Thread1 Sale 5copies CD_saled10
+CD_saled10 Current Storage: 5
+RentThread4 Try Rent CD_rent10
+CD_rent10isn't avaliable
+CD_rent10 wait others to return 
+Wed May 26 22:30:04 CST 2021 CD_rent10 has been returned by Thread3
+RentThread2 Try Rent CD_rent5
+Wed May 26 22:30:04 CST 2021 Thread2 Rent CD_rent5
+Wed May 26 22:30:04 CST 2021 CD_rent5 has been returned by Thread2
+RentThread1 Try Rent CD_rent9
+Wed May 26 22:30:04 CST 2021 Thread1 Rent CD_rent9
+saledThread4 Try Sale CD_saled3 4
+Wed May 26 22:30:04 CST 2021 Thread4 Sale 4copies CD_saled3
+CD_saled3 Current Storage: 6
+saledThread3 Try Sale CD_saled6 5
+Wed May 26 22:30:05 CST 2021 Thread3 Sale 5copies CD_saled6
+CD_saled6 Current Storage: 5
+saledThread2 Try Sale CD_saled9 4
+Wed May 26 22:30:05 CST 2021 Thread2 Sale 4copies CD_saled9
+CD_saled9 Current Storage: 6
+Normal GetIn!
+Wed May 26 22:30:05 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:30:05 CST 2021 CD_rent9 has been returned by Thread1
+saledThread1 Try Sale CD_saled4 1
+Wed May 26 22:30:05 CST 2021 Thread1 Sale 1copies CD_saled4
+CD_saled4 Current Storage: 9
+Wed May 26 22:30:05 CST 2021 Thread4 Rent CD_rent10
+RentThread3 Try Rent CD_rent3
+Wed May 26 22:30:05 CST 2021 Thread3 Rent CD_rent3
+Wed May 26 22:30:05 CST 2021 CD_rent10 has been returned by Thread4
+Wed May 26 22:30:05 CST 2021 CD_rent3 has been returned by Thread3
+saledThread4 Try Sale CD_saled5 1
+Wed May 26 22:30:06 CST 2021 Thread4 Sale 1copies CD_saled5
+CD_saled5 Current Storage: 9
+saledThread3 Try Sale CD_saled8 1
+Wed May 26 22:30:06 CST 2021 Thread3 Sale 1copies CD_saled8
+CD_saled8 Current Storage: 9
+Normal GetIn!
+Wed May 26 22:30:06 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread2 Try Sale CD_saled8 2
+Wed May 26 22:30:06 CST 2021 Thread2 Sale 2copies CD_saled8
+CD_saled8 Current Storage: 8
+RentThread1 Try Rent CD_rent4
+Wed May 26 22:30:06 CST 2021 Thread1 Rent CD_rent4
+saledThread1 Try Sale CD_saled8 2
+Wed May 26 22:30:06 CST 2021 Thread1 Sale 2copies CD_saled8
+CD_saled8 Current Storage: 6
+Wed May 26 22:30:06 CST 2021 CD_rent4 has been returned by Thread1
+RentThread2 Try Rent CD_rent3
+Wed May 26 22:30:06 CST 2021 Thread2 Rent CD_rent3
+RentThread4 Try Rent CD_rent2
+Wed May 26 22:30:06 CST 2021 Thread4 Rent CD_rent2
+RentThread3 Try Rent CD_rent2
+RentThread3 give up CD_rent2
+RentThread3 Try Rent CD_rent6
+Wed May 26 22:30:07 CST 2021 Thread3 Rent CD_rent6
+saledThread4 Try Sale CD_saled5 1
+Wed May 26 22:30:07 CST 2021 Thread4 Sale 1copies CD_saled5
+CD_saled5 Current Storage: 9
+Normal GetIn!
+Wed May 26 22:30:07 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:30:07 CST 2021 CD_rent3 has been returned by Thread2
+Wed May 26 22:30:07 CST 2021 CD_rent2 has been returned by Thread4
+saledThread3 Try Sale CD_saled1 5
+Wed May 26 22:30:07 CST 2021 Thread3 Sale 5copies CD_saled1
+CD_saled1 Current Storage: 5
+saledThread2 Try Sale CD_saled6 3
+Wed May 26 22:30:07 CST 2021 Thread2 Sale 3copies CD_saled6
+CD_saled6 Current Storage: 7
+Wed May 26 22:30:07 CST 2021 CD_rent6 has been returned by Thread3
+saledThread1 Try Sale CD_saled4 3
+Wed May 26 22:30:07 CST 2021 Thread1 Sale 3copies CD_saled4
+CD_saled4 Current Storage: 7
+Normal GetIn!
+Wed May 26 22:30:08 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread1 Try Rent CD_rent3
+Wed May 26 22:30:08 CST 2021 Thread1 Rent CD_rent3
+saledThread4 Try Sale CD_saled8 4
+Wed May 26 22:30:08 CST 2021 Thread4 Sale 4copies CD_saled8
+CD_saled8 Current Storage: 6
+RentThread4 Try Rent CD_rent7
+Wed May 26 22:30:08 CST 2021 Thread4 Rent CD_rent7
+RentThread2 Try Rent CD_rent7
+CD_rent7isn't avaliable
+CD_rent7 wait others to return 
+Wed May 26 22:30:08 CST 2021 CD_rent7 has been returned by Thread4
+saledThread3 Try Sale CD_saled3 2
+Wed May 26 22:30:08 CST 2021 Thread3 Sale 2copies CD_saled3
+CD_saled3 Current Storage: 8
+saledThread2 Try Sale CD_saled6 1
+Wed May 26 22:30:08 CST 2021 Thread2 Sale 1copies CD_saled6
+CD_saled6 Current Storage: 9
+Wed May 26 22:30:08 CST 2021 CD_rent3 has been returned by Thread1
+saledThread1 Try Sale CD_saled7 2
+Wed May 26 22:30:08 CST 2021 Thread1 Sale 2copies CD_saled7
+CD_saled7 Current Storage: 8
+Normal GetIn!
+Wed May 26 22:30:09 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread4 Try Sale CD_saled9 1
+Wed May 26 22:30:09 CST 2021 Thread4 Sale 1copies CD_saled9
+CD_saled9 Current Storage: 9
+Wed May 26 22:30:09 CST 2021 Thread2 Rent CD_rent7
+saledThread3 Try Sale CD_saled8 5
+Wed May 26 22:30:09 CST 2021 Thread3 Sale 5copies CD_saled8
+CD_saled8 Current Storage: 5
+RentThread4 Try Rent CD_rent10
+Wed May 26 22:30:09 CST 2021 Thread4 Rent CD_rent10
+RentThread3 Try Rent CD_rent3
+Wed May 26 22:30:09 CST 2021 Thread3 Rent CD_rent3
+RentThread1 Try Rent CD_rent3
+RentThread1 give up CD_rent3
+Wed May 26 22:30:09 CST 2021 CD_rent7 has been returned by Thread2
+RentThread1 Try Rent CD_rent6
+Wed May 26 22:30:09 CST 2021 Thread1 Rent CD_rent6
+saledThread2 Try Sale CD_saled9 5
+Wed May 26 22:30:09 CST 2021 Thread2 Sale 5copies CD_saled9
+CD_saled9 Current Storage: 4
+Wed May 26 22:30:09 CST 2021 CD_rent10 has been returned by Thread4
+Wed May 26 22:30:09 CST 2021 CD_rent3 has been returned by Thread3
+saledThread1 Try Sale CD_saled5 5
+Wed May 26 22:30:09 CST 2021 Thread1 Sale 5copies CD_saled5
+CD_saled5 Current Storage: 5
+Wed May 26 22:30:09 CST 2021 CD_rent6 has been returned by Thread1
+Normal GetIn!
+Wed May 26 22:30:10 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread4 Try Sale CD_saled4 2
+Wed May 26 22:30:10 CST 2021 Thread4 Sale 2copies CD_saled4
+CD_saled4 Current Storage: 8
+saledThread3 Try Sale CD_saled6 1
+Wed May 26 22:30:10 CST 2021 Thread3 Sale 1copies CD_saled6
+CD_saled6 Current Storage: 9
+RentThread2 Try Rent CD_rent7
+Wed May 26 22:30:10 CST 2021 Thread2 Rent CD_rent7
+saledThread2 Try Sale CD_saled7 4
+Wed May 26 22:30:10 CST 2021 Thread2 Sale 4copies CD_saled7
+CD_saled7 Current Storage: 6
+RentThread4 Try Rent CD_rent4
+Wed May 26 22:30:10 CST 2021 Thread4 Rent CD_rent4
+RentThread3 Try Rent CD_rent10
+Wed May 26 22:30:10 CST 2021 Thread3 Rent CD_rent10
+Wed May 26 22:30:10 CST 2021 CD_rent7 has been returned by Thread2
+saledThread1 Try Sale CD_saled4 2
+Wed May 26 22:30:10 CST 2021 Thread1 Sale 2copies CD_saled4
+CD_saled4 Current Storage: 6
+Wed May 26 22:30:10 CST 2021 CD_rent10 has been returned by Thread3
+RentThread1 Try Rent CD_rent5
+Wed May 26 22:30:11 CST 2021 Thread1 Rent CD_rent5
+Wed May 26 22:30:11 CST 2021 CD_rent4 has been returned by Thread4
+Normal GetIn!
+Wed May 26 22:30:11 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:30:11 CST 2021 CD_rent5 has been returned by Thread1
+saledThread4 Try Sale CD_saled3 2
+Wed May 26 22:30:11 CST 2021 Thread4 Sale 2copies CD_saled3
+CD_saled3 Current Storage: 8
+saledThread3 Try Sale CD_saled8 5
+Wed May 26 22:30:11 CST 2021 Thread3 Sale 5copies CD_saled8
+CD_saled8 Current Storage: 5
+saledThread2 Try Sale CD_saled4 3
+Wed May 26 22:30:11 CST 2021 Thread2 Sale 3copies CD_saled4
+CD_saled4 Current Storage: 7
+RentThread2 Try Rent CD_rent10
+Wed May 26 22:30:11 CST 2021 Thread2 Rent CD_rent10
+RentThread3 Try Rent CD_rent2
+Wed May 26 22:30:12 CST 2021 Thread3 Rent CD_rent2
+saledThread1 Try Sale CD_saled7 2
+Wed May 26 22:30:12 CST 2021 Thread1 Sale 2copies CD_saled7
+CD_saled7 Current Storage: 8
+RentThread4 Try Rent CD_rent7
+Wed May 26 22:30:12 CST 2021 Thread4 Rent CD_rent7
+Normal GetIn!
+Wed May 26 22:30:12 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:30:12 CST 2021 CD_rent10 has been returned by Thread2
+Wed May 26 22:30:12 CST 2021 CD_rent2 has been returned by Thread3
+Wed May 26 22:30:12 CST 2021 CD_rent7 has been returned by Thread4
+RentThread1 Try Rent CD_rent3
+Wed May 26 22:30:12 CST 2021 Thread1 Rent CD_rent3
+saledThread3 Try Sale CD_saled4 3
+Wed May 26 22:30:12 CST 2021 Thread3 Sale 3copies CD_saled4
+CD_saled4 Current Storage: 7
+saledThread4 Try Sale CD_saled8 4
+Wed May 26 22:30:12 CST 2021 Thread4 Sale 4copies CD_saled8
+CD_saled8 Current Storage: 6
+Wed May 26 22:30:12 CST 2021 CD_rent3 has been returned by Thread1
+saledThread2 Try Sale CD_saled9 1
+Wed May 26 22:30:13 CST 2021 Thread2 Sale 1copies CD_saled9
+CD_saled9 Current Storage: 9
+saledThread1 Try Sale CD_saled3 4
+Wed May 26 22:30:13 CST 2021 Thread1 Sale 4copies CD_saled3
+CD_saled3 Current Storage: 6
+Normal GetIn!
+Wed May 26 22:30:13 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread3 Try Rent CD_rent2
+Wed May 26 22:30:13 CST 2021 Thread3 Rent CD_rent2
+RentThread2 Try Rent CD_rent10
+Wed May 26 22:30:13 CST 2021 Thread2 Rent CD_rent10
+RentThread4 Try Rent CD_rent7
+Wed May 26 22:30:13 CST 2021 Thread4 Rent CD_rent7
+Wed May 26 22:30:13 CST 2021 CD_rent10 has been returned by Thread2
+saledThread4 Try Sale CD_saled9 2
+Wed May 26 22:30:13 CST 2021 Thread4 Sale 2copies CD_saled9
+CD_saled9 Current Storage: 8
+Wed May 26 22:30:13 CST 2021 CD_rent2 has been returned by Thread3
+Wed May 26 22:30:13 CST 2021 CD_rent7 has been returned by Thread4
+saledThread3 Try Sale CD_saled4 2
+Wed May 26 22:30:13 CST 2021 Thread3 Sale 2copies CD_saled4
+CD_saled4 Current Storage: 8
+RentThread1 Try Rent CD_rent3
+Wed May 26 22:30:13 CST 2021 Thread1 Rent CD_rent3
+Wed May 26 22:30:14 CST 2021 CD_rent3 has been returned by Thread1
+saledThread2 Try Sale CD_saled2 3
+Wed May 26 22:30:14 CST 2021 Thread2 Sale 3copies CD_saled2
+CD_saled2 Current Storage: 7
+Normal GetIn!
+Wed May 26 22:30:14 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread1 Try Sale CD_saled7 5
+Wed May 26 22:30:14 CST 2021 Thread1 Sale 5copies CD_saled7
+CD_saled7 Current Storage: 5
+RentThread2 Try Rent CD_rent4
+Wed May 26 22:30:14 CST 2021 Thread2 Rent CD_rent4
+RentThread3 Try Rent CD_rent6
+Wed May 26 22:30:14 CST 2021 Thread3 Rent CD_rent6
+saledThread3 Try Sale CD_saled2 2
+Wed May 26 22:30:14 CST 2021 Thread3 Sale 2copies CD_saled2
+CD_saled2 Current Storage: 8
+saledThread4 Try Sale CD_saled5 5
+Wed May 26 22:30:14 CST 2021 Thread4 Sale 5copies CD_saled5
+CD_saled5 Current Storage: 5
+Wed May 26 22:30:14 CST 2021 CD_rent4 has been returned by Thread2
+Wed May 26 22:30:14 CST 2021 CD_rent6 has been returned by Thread3
+RentThread4 Try Rent CD_rent3
+Wed May 26 22:30:15 CST 2021 Thread4 Rent CD_rent3
+RentThread1 Try Rent CD_rent7
+Wed May 26 22:30:15 CST 2021 Thread1 Rent CD_rent7
+Normal GetIn!
+Wed May 26 22:30:15 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:30:15 CST 2021 CD_rent7 has been returned by Thread1
+Wed May 26 22:30:15 CST 2021 CD_rent3 has been returned by Thread4
+saledThread2 Try Sale CD_saled7 2
+Wed May 26 22:30:15 CST 2021 Thread2 Sale 2copies CD_saled7
+CD_saled7 Current Storage: 8
+saledThread1 Try Sale CD_saled5 3
+Wed May 26 22:30:15 CST 2021 Thread1 Sale 3copies CD_saled5
+CD_saled5 Current Storage: 7
+saledThread4 Try Sale CD_saled8 3
+Wed May 26 22:30:15 CST 2021 Thread4 Sale 3copies CD_saled8
+CD_saled8 Current Storage: 7
+saledThread3 Try Sale CD_saled2 1
+Wed May 26 22:30:15 CST 2021 Thread3 Sale 1copies CD_saled2
+CD_saled2 Current Storage: 9
+RentThread3 Try Rent CD_rent6
+Wed May 26 22:30:16 CST 2021 Thread3 Rent CD_rent6
+RentThread2 Try Rent CD_rent10
+Wed May 26 22:30:16 CST 2021 Thread2 Rent CD_rent10
+Normal GetIn!
+Wed May 26 22:30:16 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:30:16 CST 2021 CD_rent6 has been returned by Thread3
+saledThread2 Try Sale CD_saled5 3
+Wed May 26 22:30:16 CST 2021 Thread2 Sale 3copies CD_saled5
+CD_saled5 Current Storage: 7
+Wed May 26 22:30:16 CST 2021 CD_rent10 has been returned by Thread2
+RentThread1 Try Rent CD_rent3
+Wed May 26 22:30:16 CST 2021 Thread1 Rent CD_rent3
+RentThread4 Try Rent CD_rent3
+CD_rent3isn't avaliable
+CD_rent3 wait others to return 
+Wed May 26 22:30:16 CST 2021 CD_rent3 has been returned by Thread1
+saledThread1 Try Sale CD_saled8 3
+Wed May 26 22:30:16 CST 2021 Thread1 Sale 3copies CD_saled8
+CD_saled8 Current Storage: 7
+saledThread4 Try Sale CD_saled5 2
+Wed May 26 22:30:16 CST 2021 Thread4 Sale 2copies CD_saled5
+CD_saled5 Current Storage: 5
+saledThread3 Try Sale CD_saled7 1
+Wed May 26 22:30:17 CST 2021 Thread3 Sale 1copies CD_saled7
+CD_saled7 Current Storage: 9
+Normal GetIn!
+Wed May 26 22:30:17 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread3 Try Rent CD_rent1
+Wed May 26 22:30:17 CST 2021 Thread3 Rent CD_rent1
+saledThread2 Try Sale CD_saled2 2
+Wed May 26 22:30:17 CST 2021 Thread2 Sale 2copies CD_saled2
+CD_saled2 Current Storage: 8
+Wed May 26 22:30:17 CST 2021 Thread4 Rent CD_rent3
+RentThread2 Try Rent CD_rent3
+RentThread2 give up CD_rent3
+RentThread1 Try Rent CD_rent10
+Wed May 26 22:30:17 CST 2021 Thread1 Rent CD_rent10
+saledThread1 Try Sale CD_saled9 1
+Wed May 26 22:30:17 CST 2021 Thread1 Sale 1copies CD_saled9
+CD_saled9 Current Storage: 9
+RentThread2 Try Rent CD_rent4
+Wed May 26 22:30:17 CST 2021 Thread2 Rent CD_rent4
+Wed May 26 22:30:17 CST 2021 CD_rent3 has been returned by Thread4
+Wed May 26 22:30:17 CST 2021 CD_rent1 has been returned by Thread3
+Wed May 26 22:30:17 CST 2021 CD_rent10 has been returned by Thread1
+Wed May 26 22:30:17 CST 2021 CD_rent4 has been returned by Thread2
+saledThread4 Try Sale CD_saled4 1
+Wed May 26 22:30:18 CST 2021 Thread4 Sale 1copies CD_saled4
+CD_saled4 Current Storage: 9
+saledThread3 Try Sale CD_saled1 5
+Wed May 26 22:30:18 CST 2021 Thread3 Sale 5copies CD_saled1
+CD_saled1 Current Storage: 5
+Normal GetIn!
+Wed May 26 22:30:18 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread2 Try Sale CD_saled10 5
+Wed May 26 22:30:18 CST 2021 Thread2 Sale 5copies CD_saled10
+CD_saled10 Current Storage: 5
+saledThread1 Try Sale CD_saled6 5
+Wed May 26 22:30:18 CST 2021 Thread1 Sale 5copies CD_saled6
+CD_saled6 Current Storage: 5
+RentThread4 Try Rent CD_rent10
+Wed May 26 22:30:18 CST 2021 Thread4 Rent CD_rent10
+RentThread3 Try Rent CD_rent7
+Wed May 26 22:30:18 CST 2021 Thread3 Rent CD_rent7
+RentThread1 Try Rent CD_rent9
+Wed May 26 22:30:18 CST 2021 Thread1 Rent CD_rent9
+RentThread2 Try Rent CD_rent8
+Wed May 26 22:30:18 CST 2021 Thread2 Rent CD_rent8
+Wed May 26 22:30:19 CST 2021 CD_rent7 has been returned by Thread3
+Wed May 26 22:30:19 CST 2021 CD_rent10 has been returned by Thread4
+Wed May 26 22:30:19 CST 2021 CD_rent9 has been returned by Thread1
+saledThread4 Try Sale CD_saled1 1
+Wed May 26 22:30:19 CST 2021 Thread4 Sale 1copies CD_saled1
+CD_saled1 Current Storage: 9
+Wed May 26 22:30:19 CST 2021 CD_rent8 has been returned by Thread2
+Normal GetIn!
+Wed May 26 22:30:19 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread3 Try Sale CD_saled4 2
+Wed May 26 22:30:19 CST 2021 Thread3 Sale 2copies CD_saled4
+CD_saled4 Current Storage: 8
+saledThread2 Try Sale CD_saled9 5
+Wed May 26 22:30:19 CST 2021 Thread2 Sale 5copies CD_saled9
+CD_saled9 Current Storage: 5
+saledThread1 Try Sale CD_saled10 4
+Wed May 26 22:30:19 CST 2021 Thread1 Sale 4copies CD_saled10
+CD_saled10 Current Storage: 6
+RentThread3 Try Rent CD_rent10
+Wed May 26 22:30:20 CST 2021 Thread3 Rent CD_rent10
+RentThread4 Try Rent CD_rent9
+Wed May 26 22:30:20 CST 2021 Thread4 Rent CD_rent9
+RentThread1 Try Rent CD_rent8
+Wed May 26 22:30:20 CST 2021 Thread1 Rent CD_rent8
+Normal GetIn!
+Wed May 26 22:30:20 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread2 Try Rent CD_rent4
+Wed May 26 22:30:20 CST 2021 Thread2 Rent CD_rent4
+Wed May 26 22:30:20 CST 2021 CD_rent10 has been returned by Thread3
+saledThread4 Try Sale CD_saled6 3
+Wed May 26 22:30:20 CST 2021 Thread4 Sale 3copies CD_saled6
+CD_saled6 Current Storage: 7
+saledThread3 Try Sale CD_saled1 5
+Wed May 26 22:30:20 CST 2021 Thread3 Sale 5copies CD_saled1
+CD_saled1 Current Storage: 5
+Wed May 26 22:30:20 CST 2021 CD_rent9 has been returned by Thread4
+Wed May 26 22:30:20 CST 2021 CD_rent8 has been returned by Thread1
+Wed May 26 22:30:20 CST 2021 CD_rent4 has been returned by Thread2
+saledThread2 Try Sale CD_saled10 3
+Wed May 26 22:30:20 CST 2021 Thread2 Sale 3copies CD_saled10
+CD_saled10 Current Storage: 7
+saledThread1 Try Sale CD_saled3 1
+Wed May 26 22:30:20 CST 2021 Thread1 Sale 1copies CD_saled3
+CD_saled3 Current Storage: 9
+Normal GetIn!
+Wed May 26 22:30:21 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread4 Try Sale CD_saled8 3
+Wed May 26 22:30:21 CST 2021 Thread4 Sale 3copies CD_saled8
+CD_saled8 Current Storage: 7
+RentThread4 Try Rent CD_rent3
+Wed May 26 22:30:21 CST 2021 Thread4 Rent CD_rent3
+saledThread3 Try Sale CD_saled6 1
+Wed May 26 22:30:21 CST 2021 Thread3 Sale 1copies CD_saled6
+CD_saled6 Current Storage: 9
+RentThread3 Try Rent CD_rent5
+Wed May 26 22:30:21 CST 2021 Thread3 Rent CD_rent5
+RentThread1 Try Rent CD_rent6
+Wed May 26 22:30:21 CST 2021 Thread1 Rent CD_rent6
+Wed May 26 22:30:21 CST 2021 CD_rent3 has been returned by Thread4
+RentThread2 Try Rent CD_rent9
+Wed May 26 22:30:21 CST 2021 Thread2 Rent CD_rent9
+saledThread2 Try Sale CD_saled1 2
+Wed May 26 22:30:21 CST 2021 Thread2 Sale 2copies CD_saled1
+CD_saled1 Current Storage: 8
+Wed May 26 22:30:21 CST 2021 CD_rent5 has been returned by Thread3
+Wed May 26 22:30:21 CST 2021 CD_rent6 has been returned by Thread1
+saledThread1 Try Sale CD_saled7 1
+Wed May 26 22:30:21 CST 2021 Thread1 Sale 1copies CD_saled7
+CD_saled7 Current Storage: 9
+Wed May 26 22:30:21 CST 2021 CD_rent9 has been returned by Thread2
+Normal GetIn!
+Wed May 26 22:30:22 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread4 Try Sale CD_saled8 2
+Wed May 26 22:30:22 CST 2021 Thread4 Sale 2copies CD_saled8
+CD_saled8 Current Storage: 8
+saledThread3 Try Sale CD_saled9 5
+Wed May 26 22:30:22 CST 2021 Thread3 Sale 5copies CD_saled9
+CD_saled9 Current Storage: 5
+
+
+
+
+
+# Wed May 26 22:35-36
+CD_saled3 Current Storage: 7
+RentThread3 Try Rent CD_rent7
+Wed May 26 22:35:30 CST 2021 Thread3 Rent CD_rent7
+Normal GetIn!
+Wed May 26 22:35:30 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread4 Try Rent CD_rent6
+Wed May 26 22:35:30 CST 2021 Thread4 Rent CD_rent6
+saledThread1 Try Sale CD_saled8 4
+Wed May 26 22:35:30 CST 2021 Thread1 Sale 4copies CD_saled8
+CD_saled8 Current Storage: 6
+Wed May 26 22:35:31 CST 2021 CD_rent7 has been returned by Thread3
+Wed May 26 22:35:31 CST 2021 CD_rent6 has been returned by Thread4
+RentThread1 Try Rent CD_rent4
+Wed May 26 22:35:31 CST 2021 Thread1 Rent CD_rent4
+Wed May 26 22:35:31 CST 2021 CD_rent4 has been returned by Thread1
+saledThread3 Try Sale CD_saled8 4
+Wed May 26 22:35:31 CST 2021 Thread3 Sale 4copies CD_saled8
+CD_saled8 Current Storage: 2
+RentThread2 Try Rent CD_rent3
+Wed May 26 22:35:31 CST 2021 Thread2 Rent CD_rent3
+saledThread2 Try Sale CD_saled4 4
+Wed May 26 22:35:31 CST 2021 Thread2 Sale 4copies CD_saled4
+CD_saled4 Current Storage: 6
+saledThread4 Try Sale CD_saled2 4
+Wed May 26 22:35:31 CST 2021 Thread4 Sale 4copies CD_saled2
+CD_saled2 Current Storage: 6
+Normal GetIn!
+Wed May 26 22:35:31 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:35:32 CST 2021 CD_rent3 has been returned by Thread2
+saledThread1 Try Sale CD_saled5 1
+Wed May 26 22:35:32 CST 2021 Thread1 Sale 1copies CD_saled5
+CD_saled5 Current Storage: 9
+RentThread3 Try Rent CD_rent9
+Wed May 26 22:35:32 CST 2021 Thread3 Rent CD_rent9
+RentThread4 Try Rent CD_rent7
+Wed May 26 22:35:32 CST 2021 Thread4 Rent CD_rent7
+Wed May 26 22:35:32 CST 2021 CD_rent9 has been returned by Thread3
+RentThread1 Try Rent CD_rent2
+Wed May 26 22:35:32 CST 2021 Thread1 Rent CD_rent2
+Wed May 26 22:35:32 CST 2021 CD_rent7 has been returned by Thread4
+Wed May 26 22:35:32 CST 2021 CD_rent2 has been returned by Thread1
+saledThread3 Try Sale CD_saled9 5
+Wed May 26 22:35:32 CST 2021 Thread3 Sale 5copies CD_saled9
+CD_saled9 Current Storage: 5
+saledThread2 Try Sale CD_saled2 4
+Wed May 26 22:35:32 CST 2021 Thread2 Sale 4copies CD_saled2
+CD_saled2 Current Storage: 6
+Normal GetIn!
+Wed May 26 22:35:32 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread4 Try Sale CD_saled8 1
+Wed May 26 22:35:33 CST 2021 Thread4 Sale 1copies CD_saled8
+CD_saled8 Current Storage: 9
+RentThread2 Try Rent CD_rent8
+Wed May 26 22:35:33 CST 2021 Thread2 Rent CD_rent8
+saledThread1 Try Sale CD_saled10 3
+Wed May 26 22:35:33 CST 2021 Thread1 Sale 3copies CD_saled10
+CD_saled10 Current Storage: 7
+Wed May 26 22:35:33 CST 2021 CD_rent8 has been returned by Thread2
+RentThread3 Try Rent CD_rent3
+Wed May 26 22:35:33 CST 2021 Thread3 Rent CD_rent3
+RentThread4 Try Rent CD_rent6
+Wed May 26 22:35:33 CST 2021 Thread4 Rent CD_rent6
+RentThread1 Try Rent CD_rent1
+Wed May 26 22:35:33 CST 2021 Thread1 Rent CD_rent1
+Normal GetIn!
+Wed May 26 22:35:33 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:35:33 CST 2021 CD_rent3 has been returned by Thread3
+saledThread3 Try Sale CD_saled3 3
+Wed May 26 22:35:34 CST 2021 Thread3 Sale 3copies CD_saled3
+CD_saled3 Current Storage: 7
+saledThread2 Try Sale CD_saled9 4
+Wed May 26 22:35:34 CST 2021 Thread2 Sale 4copies CD_saled9
+CD_saled9 Current Storage: 6
+Wed May 26 22:35:34 CST 2021 CD_rent1 has been returned by Thread1
+Wed May 26 22:35:34 CST 2021 CD_rent6 has been returned by Thread4
+saledThread4 Try Sale CD_saled4 5
+Wed May 26 22:35:34 CST 2021 Thread4 Sale 5copies CD_saled4
+CD_saled4 Current Storage: 5
+saledThread1 Try Sale CD_saled5 5
+Wed May 26 22:35:34 CST 2021 Thread1 Sale 5copies CD_saled5
+CD_saled5 Current Storage: 5
+Normal GetIn!
+Wed May 26 22:35:34 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread3 Try Rent CD_rent7
+Wed May 26 22:35:35 CST 2021 Thread3 Rent CD_rent7
+RentThread2 Try Rent CD_rent6
+Wed May 26 22:35:35 CST 2021 Thread2 Rent CD_rent6
+saledThread3 Try Sale CD_saled2 3
+Wed May 26 22:35:35 CST 2021 Thread3 Sale 3copies CD_saled2
+CD_saled2 Current Storage: 7
+RentThread1 Try Rent CD_rent6
+RentThread1 give up CD_rent6
+saledThread2 Try Sale CD_saled9 1
+Wed May 26 22:35:35 CST 2021 Thread2 Sale 1copies CD_saled9
+CD_saled9 Current Storage: 9
+RentThread4 Try Rent CD_rent6
+CD_rent6isn't avaliable
+CD_rent6 wait others to return 
+Wed May 26 22:35:35 CST 2021 CD_rent6 has been returned by Thread2
+saledThread4 Try Sale CD_saled2 2
+Wed May 26 22:35:35 CST 2021 Thread4 Sale 2copies CD_saled2
+CD_saled2 Current Storage: 5
+RentThread1 Try Rent CD_rent10
+Wed May 26 22:35:35 CST 2021 Thread1 Rent CD_rent10
+Wed May 26 22:35:35 CST 2021 CD_rent7 has been returned by Thread3
+saledThread1 Try Sale CD_saled9 4
+Wed May 26 22:35:35 CST 2021 Thread1 Sale 4copies CD_saled9
+CD_saled9 Current Storage: 5
+Wed May 26 22:35:35 CST 2021 CD_rent10 has been returned by Thread1
+Normal GetIn!
+Wed May 26 22:35:35 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:35:36 CST 2021 Thread4 Rent CD_rent6
+saledThread2 Try Sale CD_saled5 2
+Wed May 26 22:35:36 CST 2021 Thread2 Sale 2copies CD_saled5
+CD_saled5 Current Storage: 8
+saledThread3 Try Sale CD_saled4 5
+Wed May 26 22:35:36 CST 2021 Thread3 Sale 5copies CD_saled4
+CD_saled4 Current Storage: 5
+RentThread2 Try Rent CD_rent7
+Wed May 26 22:35:36 CST 2021 Thread2 Rent CD_rent7
+Wed May 26 22:35:36 CST 2021 CD_rent6 has been returned by Thread4
+saledThread4 Try Sale CD_saled5 2
+Wed May 26 22:35:36 CST 2021 Thread4 Sale 2copies CD_saled5
+CD_saled5 Current Storage: 6
+Wed May 26 22:35:36 CST 2021 CD_rent7 has been returned by Thread2
+RentThread3 Try Rent CD_rent10
+Wed May 26 22:35:36 CST 2021 Thread3 Rent CD_rent10
+saledThread1 Try Sale CD_saled3 4
+Wed May 26 22:35:36 CST 2021 Thread1 Sale 4copies CD_saled3
+CD_saled3 Current Storage: 6
+Wed May 26 22:35:36 CST 2021 CD_rent10 has been returned by Thread3
+Normal GetIn!
+Wed May 26 22:35:36 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread2 Try Sale CD_saled3 5
+Wed May 26 22:35:37 CST 2021 Thread2 Sale 5copies CD_saled3
+CD_saled3 Current Storage: 5
+RentThread1 Try Rent CD_rent6
+Wed May 26 22:35:37 CST 2021 Thread1 Rent CD_rent6
+saledThread3 Try Sale CD_saled5 1
+Wed May 26 22:35:37 CST 2021 Thread3 Sale 1copies CD_saled5
+CD_saled5 Current Storage: 9
+saledThread4 Try Sale CD_saled7 3
+Wed May 26 22:35:37 CST 2021 Thread4 Sale 3copies CD_saled7
+CD_saled7 Current Storage: 7
+saledThread1 Try Sale CD_saled2 5
+Wed May 26 22:35:37 CST 2021 Thread1 Sale 5copies CD_saled2
+CD_saled2 Current Storage: 5
+Wed May 26 22:35:37 CST 2021 CD_rent6 has been returned by Thread1
+RentThread2 Try Rent CD_rent10
+Wed May 26 22:35:37 CST 2021 Thread2 Rent CD_rent10
+RentThread4 Try Rent CD_rent10
+CD_rent10isn't avaliable
+CD_rent10 wait others to return 
+Wed May 26 22:35:37 CST 2021 CD_rent10 has been returned by Thread2
+RentThread3 Try Rent CD_rent4
+Wed May 26 22:35:37 CST 2021 Thread3 Rent CD_rent4
+Normal GetIn!
+Wed May 26 22:35:37 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:35:38 CST 2021 CD_rent4 has been returned by Thread3
+saledThread2 Try Sale CD_saled10 1
+Wed May 26 22:35:38 CST 2021 Thread2 Sale 1copies CD_saled10
+CD_saled10 Current Storage: 9
+saledThread3 Try Sale CD_saled7 2
+Wed May 26 22:35:38 CST 2021 Thread3 Sale 2copies CD_saled7
+CD_saled7 Current Storage: 8
+saledThread4 Try Sale CD_saled1 5
+Wed May 26 22:35:38 CST 2021 Thread4 Sale 5copies CD_saled1
+CD_saled1 Current Storage: 5
+Wed May 26 22:35:38 CST 2021 Thread4 Rent CD_rent10
+RentThread1 Try Rent CD_rent2
+Wed May 26 22:35:38 CST 2021 Thread1 Rent CD_rent2
+saledThread1 Try Sale CD_saled10 3
+Wed May 26 22:35:38 CST 2021 Thread1 Sale 3copies CD_saled10
+CD_saled10 Current Storage: 6
+RentThread2 Try Rent CD_rent10
+RentThread2 give up CD_rent10
+Normal GetIn!
+Wed May 26 22:35:38 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:35:39 CST 2021 CD_rent10 has been returned by Thread4
+Wed May 26 22:35:39 CST 2021 CD_rent2 has been returned by Thread1
+RentThread2 Try Rent CD_rent9
+Wed May 26 22:35:39 CST 2021 Thread2 Rent CD_rent9
+RentThread3 Try Rent CD_rent3
+Wed May 26 22:35:39 CST 2021 Thread3 Rent CD_rent3
+Wed May 26 22:35:39 CST 2021 CD_rent9 has been returned by Thread2
+Wed May 26 22:35:39 CST 2021 CD_rent3 has been returned by Thread3
+saledThread2 Try Sale CD_saled9 3
+Wed May 26 22:35:39 CST 2021 Thread2 Sale 3copies CD_saled9
+CD_saled9 Current Storage: 7
+saledThread3 Try Sale CD_saled1 5
+Wed May 26 22:35:39 CST 2021 Thread3 Sale 5copies CD_saled1
+CD_saled1 Current Storage: 5
+saledThread4 Try Sale CD_saled8 1
+Wed May 26 22:35:39 CST 2021 Thread4 Sale 1copies CD_saled8
+CD_saled8 Current Storage: 9
+saledThread1 Try Sale CD_saled4 1
+Wed May 26 22:35:39 CST 2021 Thread1 Sale 1copies CD_saled4
+CD_saled4 Current Storage: 9
+Normal GetIn!
+Wed May 26 22:35:39 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread1 Try Rent CD_rent5
+Wed May 26 22:35:40 CST 2021 Thread1 Rent CD_rent5
+RentThread4 Try Rent CD_rent1
+Wed May 26 22:35:40 CST 2021 Thread4 Rent CD_rent1
+Wed May 26 22:35:40 CST 2021 CD_rent5 has been returned by Thread1
+RentThread2 Try Rent CD_rent10
+Wed May 26 22:35:40 CST 2021 Thread2 Rent CD_rent10
+Wed May 26 22:35:40 CST 2021 CD_rent1 has been returned by Thread4
+RentThread3 Try Rent CD_rent3
+Wed May 26 22:35:40 CST 2021 Thread3 Rent CD_rent3
+Wed May 26 22:35:40 CST 2021 CD_rent10 has been returned by Thread2
+saledThread2 Try Sale CD_saled1 5
+Wed May 26 22:35:40 CST 2021 Thread2 Sale 5copies CD_saled1
+CD_saled1 Current Storage: 5
+Wed May 26 22:35:40 CST 2021 CD_rent3 has been returned by Thread3
+saledThread1 Try Sale CD_saled9 5
+Wed May 26 22:35:40 CST 2021 Thread1 Sale 5copies CD_saled9
+CD_saled9 Current Storage: 5
+Normal GetIn!
+Wed May 26 22:35:40 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread3 Try Sale CD_saled9 5
+Wed May 26 22:35:41 CST 2021 Thread3 Sale 5copies CD_saled9
+CD_saled9 Current Storage: 5
+saledThread4 Try Sale CD_saled2 5
+Wed May 26 22:35:41 CST 2021 Thread4 Sale 5copies CD_saled2
+CD_saled2 Current Storage: 5
+RentThread1 Try Rent CD_rent7
+Wed May 26 22:35:41 CST 2021 Thread1 Rent CD_rent7
+RentThread4 Try Rent CD_rent4
+Wed May 26 22:35:41 CST 2021 Thread4 Rent CD_rent4
+RentThread2 Try Rent CD_rent4
+RentThread2 give up CD_rent4
+Wed May 26 22:35:41 CST 2021 CD_rent7 has been returned by Thread1
+Wed May 26 22:35:41 CST 2021 CD_rent4 has been returned by Thread4
+RentThread2 Try Rent CD_rent3
+Wed May 26 22:35:41 CST 2021 Thread2 Rent CD_rent3
+RentThread3 Try Rent CD_rent9
+Wed May 26 22:35:41 CST 2021 Thread3 Rent CD_rent9
+saledThread2 Try Sale CD_saled5 4
+Wed May 26 22:35:41 CST 2021 Thread2 Sale 4copies CD_saled5
+CD_saled5 Current Storage: 6
+Normal GetIn!
+Wed May 26 22:35:41 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread1 Try Sale CD_saled8 2
+Wed May 26 22:35:42 CST 2021 Thread1 Sale 2copies CD_saled8
+CD_saled8 Current Storage: 8
+saledThread4 Try Sale CD_saled7 5
+Wed May 26 22:35:42 CST 2021 Thread4 Sale 5copies CD_saled7
+CD_saled7 Current Storage: 5
+Wed May 26 22:35:42 CST 2021 CD_rent3 has been returned by Thread2
+Wed May 26 22:35:42 CST 2021 CD_rent9 has been returned by Thread3
+saledThread3 Try Sale CD_saled9 5
+Wed May 26 22:35:42 CST 2021 Thread3 Sale 5copies CD_saled9
+CD_saled9 Current Storage: 5
+RentThread1 Try Rent CD_rent7
+Wed May 26 22:35:42 CST 2021 Thread1 Rent CD_rent7
+RentThread4 Try Rent CD_rent10
+Wed May 26 22:35:42 CST 2021 Thread4 Rent CD_rent10
+saledThread2 Try Sale CD_saled5 5
+Wed May 26 22:35:42 CST 2021 Thread2 Sale 5copies CD_saled5
+CD_saled5 Current Storage: 5
+Normal GetIn!
+Wed May 26 22:35:42 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread2 Try Rent CD_rent1
+Wed May 26 22:35:43 CST 2021 Thread2 Rent CD_rent1
+Wed May 26 22:35:43 CST 2021 CD_rent7 has been returned by Thread1
+Wed May 26 22:35:43 CST 2021 CD_rent10 has been returned by Thread4
+saledThread4 Try Sale CD_saled2 5
+Wed May 26 22:35:43 CST 2021 Thread4 Sale 5copies CD_saled2
+CD_saled2 Current Storage: 5
+saledThread1 Try Sale CD_saled6 1
+Wed May 26 22:35:43 CST 2021 Thread1 Sale 1copies CD_saled6
+CD_saled6 Current Storage: 9
+saledThread3 Try Sale CD_saled9 5
+Wed May 26 22:35:43 CST 2021 Thread3 Sale 5copies CD_saled9
+CD_saled9 Current Storage: 5
+RentThread3 Try Rent CD_rent5
+Wed May 26 22:35:43 CST 2021 Thread3 Rent CD_rent5
+Wed May 26 22:35:43 CST 2021 CD_rent1 has been returned by Thread2
+Wed May 26 22:35:43 CST 2021 CD_rent5 has been returned by Thread3
+Normal GetIn!
+Wed May 26 22:35:43 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread2 Try Sale CD_saled8 2
+Wed May 26 22:35:44 CST 2021 Thread2 Sale 2copies CD_saled8
+CD_saled8 Current Storage: 8
+RentThread1 Try Rent CD_rent3
+Wed May 26 22:35:44 CST 2021 Thread1 Rent CD_rent3
+saledThread4 Try Sale CD_saled3 3
+Wed May 26 22:35:44 CST 2021 Thread4 Sale 3copies CD_saled3
+CD_saled3 Current Storage: 7
+RentThread4 Try Rent CD_rent9
+Wed May 26 22:35:44 CST 2021 Thread4 Rent CD_rent9
+saledThread3 Try Sale CD_saled5 3
+Wed May 26 22:35:44 CST 2021 Thread3 Sale 3copies CD_saled5
+CD_saled5 Current Storage: 7
+saledThread1 Try Sale CD_saled3 3
+Wed May 26 22:35:44 CST 2021 Thread1 Sale 3copies CD_saled3
+CD_saled3 Current Storage: 4
+Wed May 26 22:35:44 CST 2021 CD_rent3 has been returned by Thread1
+Wed May 26 22:35:44 CST 2021 CD_rent9 has been returned by Thread4
+RentThread2 Try Rent CD_rent2
+Wed May 26 22:35:44 CST 2021 Thread2 Rent CD_rent2
+RentThread3 Try Rent CD_rent2
+CD_rent2isn't avaliable
+CD_rent2 wait others to return 
+Wed May 26 22:35:44 CST 2021 CD_rent2 has been returned by Thread2
+Normal GetIn!
+Wed May 26 22:35:44 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread2 Try Sale CD_saled9 5
+Wed May 26 22:35:45 CST 2021 Thread2 Sale 5copies CD_saled9
+CD_saled9 Current Storage: 5
+saledThread3 Try Sale CD_saled6 5
+Wed May 26 22:35:45 CST 2021 Thread3 Sale 5copies CD_saled6
+CD_saled6 Current Storage: 5
+saledThread4 Try Sale CD_saled5 5
+Wed May 26 22:35:45 CST 2021 Thread4 Sale 5copies CD_saled5
+CD_saled5 Current Storage: 5
+saledThread1 Try Sale CD_saled2 2
+Wed May 26 22:35:45 CST 2021 Thread1 Sale 2copies CD_saled2
+CD_saled2 Current Storage: 8
+RentThread4 Try Rent CD_rent3
+Wed May 26 22:35:45 CST 2021 Thread4 Rent CD_rent3
+Wed May 26 22:35:45 CST 2021 Thread3 Rent CD_rent2
+RentThread1 Try Rent CD_rent8
+Wed May 26 22:35:45 CST 2021 Thread1 Rent CD_rent8
+RentThread2 Try Rent CD_rent9
+Wed May 26 22:35:45 CST 2021 Thread2 Rent CD_rent9
+Wed May 26 22:35:45 CST 2021 CD_rent3 has been returned by Thread4
+Wed May 26 22:35:45 CST 2021 CD_rent2 has been returned by Thread3
+Wed May 26 22:35:45 CST 2021 CD_rent8 has been returned by Thread1
+Wed May 26 22:35:45 CST 2021 CD_rent9 has been returned by Thread2
+Normal GetIn!
+Wed May 26 22:35:46 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread2 Try Sale CD_saled8 1
+Wed May 26 22:35:46 CST 2021 Thread2 Sale 1copies CD_saled8
+CD_saled8 Current Storage: 9
+saledThread4 Try Sale CD_saled7 2
+Wed May 26 22:35:46 CST 2021 Thread4 Sale 2copies CD_saled7
+CD_saled7 Current Storage: 8
+saledThread3 Try Sale CD_saled3 4
+Wed May 26 22:35:46 CST 2021 Thread3 Sale 4copies CD_saled3
+CD_saled3 Current Storage: 6
+saledThread1 Try Sale CD_saled4 4
+Wed May 26 22:35:46 CST 2021 Thread1 Sale 4copies CD_saled4
+CD_saled4 Current Storage: 6
+RentThread3 Try Rent CD_rent10
+Wed May 26 22:35:46 CST 2021 Thread3 Rent CD_rent10
+RentThread4 Try Rent CD_rent7
+Wed May 26 22:35:47 CST 2021 Thread4 Rent CD_rent7
+Normal GetIn!
+Wed May 26 22:35:47 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread2 Try Rent CD_rent4
+Wed May 26 22:35:47 CST 2021 Thread2 Rent CD_rent4
+RentThread1 Try Rent CD_rent5
+Wed May 26 22:35:47 CST 2021 Thread1 Rent CD_rent5
+Wed May 26 22:35:47 CST 2021 CD_rent10 has been returned by Thread3
+Wed May 26 22:35:47 CST 2021 CD_rent7 has been returned by Thread4
+Wed May 26 22:35:47 CST 2021 CD_rent5 has been returned by Thread1
+Wed May 26 22:35:47 CST 2021 CD_rent4 has been returned by Thread2
+saledThread2 Try Sale CD_saled5 5
+Wed May 26 22:35:47 CST 2021 Thread2 Sale 5copies CD_saled5
+CD_saled5 Current Storage: 5
+saledThread3 Try Sale CD_saled5 4
+Wed May 26 22:35:47 CST 2021 Thread3 Sale 4copies CD_saled5
+CD_saled5 Current Storage: 1
+saledThread4 Try Sale CD_saled7 3
+Wed May 26 22:35:47 CST 2021 Thread4 Sale 3copies CD_saled7
+CD_saled7 Current Storage: 7
+saledThread1 Try Sale CD_saled10 5
+Wed May 26 22:35:47 CST 2021 Thread1 Sale 5copies CD_saled10
+CD_saled10 Current Storage: 5
+Normal GetIn!
+Wed May 26 22:35:48 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread4 Try Rent CD_rent5
+Wed May 26 22:35:48 CST 2021 Thread4 Rent CD_rent5
+RentThread1 Try Rent CD_rent1
+Wed May 26 22:35:48 CST 2021 Thread1 Rent CD_rent1
+RentThread3 Try Rent CD_rent2
+Wed May 26 22:35:48 CST 2021 Thread3 Rent CD_rent2
+RentThread2 Try Rent CD_rent8
+Wed May 26 22:35:48 CST 2021 Thread2 Rent CD_rent8
+saledThread3 Try Sale CD_saled2 3
+Wed May 26 22:35:48 CST 2021 Thread3 Sale 3copies CD_saled2
+CD_saled2 Current Storage: 7
+Wed May 26 22:35:48 CST 2021 CD_rent5 has been returned by Thread4
+Wed May 26 22:35:48 CST 2021 CD_rent1 has been returned by Thread1
+saledThread2 Try Sale CD_saled10 2
+Wed May 26 22:35:48 CST 2021 Thread2 Sale 2copies CD_saled10
+CD_saled10 Current Storage: 8
+saledThread4 Try Sale CD_saled6 2
+Wed May 26 22:35:48 CST 2021 Thread4 Sale 2copies CD_saled6
+CD_saled6 Current Storage: 8
+Wed May 26 22:35:48 CST 2021 CD_rent2 has been returned by Thread3
+Wed May 26 22:35:48 CST 2021 CD_rent8 has been returned by Thread2
+saledThread1 Try Sale CD_saled4 3
+Wed May 26 22:35:48 CST 2021 Thread1 Sale 3copies CD_saled4
+CD_saled4 Current Storage: 7
+Normal GetIn!
+Wed May 26 22:35:49 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread4 Try Rent CD_rent9
+Wed May 26 22:35:49 CST 2021 Thread4 Rent CD_rent9
+RentThread1 Try Rent CD_rent9
+CD_rent9isn't avaliable
+CD_rent9 wait others to return 
+Wed May 26 22:35:49 CST 2021 CD_rent9 has been returned by Thread4
+saledThread2 Try Sale CD_saled10 3
+Wed May 26 22:35:49 CST 2021 Thread2 Sale 3copies CD_saled10
+CD_saled10 Current Storage: 7
+saledThread3 Try Sale CD_saled9 1
+Wed May 26 22:35:49 CST 2021 Thread3 Sale 1copies CD_saled9
+CD_saled9 Current Storage: 9
+saledThread4 Try Sale CD_saled1 3
+Wed May 26 22:35:49 CST 2021 Thread4 Sale 3copies CD_saled1
+CD_saled1 Current Storage: 7
+RentThread3 Try Rent CD_rent2
+Wed May 26 22:35:49 CST 2021 Thread3 Rent CD_rent2
+RentThread2 Try Rent CD_rent3
+Wed May 26 22:35:49 CST 2021 Thread2 Rent CD_rent3
+Wed May 26 22:35:50 CST 2021 CD_rent2 has been returned by Thread3
+saledThread1 Try Sale CD_saled7 1
+Wed May 26 22:35:50 CST 2021 Thread1 Sale 1copies CD_saled7
+CD_saled7 Current Storage: 9
+Normal GetIn!
+Wed May 26 22:35:50 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:35:50 CST 2021 CD_rent3 has been returned by Thread2
+Wed May 26 22:35:50 CST 2021 Thread1 Rent CD_rent9
+saledThread2 Try Sale CD_saled9 2
+Wed May 26 22:35:50 CST 2021 Thread2 Sale 2copies CD_saled9
+CD_saled9 Current Storage: 8
+RentThread4 Try Rent CD_rent1
+Wed May 26 22:35:50 CST 2021 Thread4 Rent CD_rent1
+saledThread3 Try Sale CD_saled1 1
+Wed May 26 22:35:50 CST 2021 Thread3 Sale 1copies CD_saled1
+CD_saled1 Current Storage: 9
+saledThread4 Try Sale CD_saled10 5
+Wed May 26 22:35:50 CST 2021 Thread4 Sale 5copies CD_saled10
+CD_saled10 Current Storage: 5
+Wed May 26 22:35:50 CST 2021 CD_rent9 has been returned by Thread1
+Wed May 26 22:35:50 CST 2021 CD_rent1 has been returned by Thread4
+Normal GetIn!
+Wed May 26 22:35:51 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread1 Try Sale CD_saled2 5
+Wed May 26 22:35:51 CST 2021 Thread1 Sale 5copies CD_saled2
+CD_saled2 Current Storage: 5
+RentThread2 Try Rent CD_rent10
+Wed May 26 22:35:51 CST 2021 Thread2 Rent CD_rent10
+RentThread3 Try Rent CD_rent5
+Wed May 26 22:35:51 CST 2021 Thread3 Rent CD_rent5
+Wed May 26 22:35:51 CST 2021 CD_rent10 has been returned by Thread2
+Wed May 26 22:35:51 CST 2021 CD_rent5 has been returned by Thread3
+saledThread2 Try Sale CD_saled9 2
+Wed May 26 22:35:51 CST 2021 Thread2 Sale 2copies CD_saled9
+CD_saled9 Current Storage: 8
+saledThread3 Try Sale CD_saled10 5
+Wed May 26 22:35:51 CST 2021 Thread3 Sale 5copies CD_saled10
+CD_saled10 Current Storage: 5
+saledThread4 Try Sale CD_saled3 3
+Wed May 26 22:35:51 CST 2021 Thread4 Sale 3copies CD_saled3
+CD_saled3 Current Storage: 7
+RentThread4 Try Rent CD_rent7
+Wed May 26 22:35:51 CST 2021 Thread4 Rent CD_rent7
+Normal GetIn!
+Wed May 26 22:35:52 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:35:52 CST 2021 CD_rent7 has been returned by Thread4
+saledThread1 Try Sale CD_saled4 4
+Wed May 26 22:35:52 CST 2021 Thread1 Sale 4copies CD_saled4
+CD_saled4 Current Storage: 6
+RentThread1 Try Rent CD_rent10
+Wed May 26 22:35:52 CST 2021 Thread1 Rent CD_rent10
+RentThread3 Try Rent CD_rent8
+Wed May 26 22:35:52 CST 2021 Thread3 Rent CD_rent8
+Wed May 26 22:35:52 CST 2021 CD_rent10 has been returned by Thread1
+saledThread2 Try Sale CD_saled2 3
+Wed May 26 22:35:52 CST 2021 Thread2 Sale 3copies CD_saled2
+CD_saled2 Current Storage: 7
+Wed May 26 22:35:52 CST 2021 CD_rent8 has been returned by Thread3
+saledThread4 Try Sale CD_saled9 1
+Wed May 26 22:35:52 CST 2021 Thread4 Sale 1copies CD_saled9
+CD_saled9 Current Storage: 9
+saledThread3 Try Sale CD_saled6 1
+Wed May 26 22:35:52 CST 2021 Thread3 Sale 1copies CD_saled6
+CD_saled6 Current Storage: 9
+Normal GetIn!
+Wed May 26 22:35:53 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread2 Try Rent CD_rent7
+Wed May 26 22:35:53 CST 2021 Thread2 Rent CD_rent7
+RentThread4 Try Rent CD_rent9
+Wed May 26 22:35:53 CST 2021 Thread4 Rent CD_rent9
+saledThread1 Try Sale CD_saled10 1
+Wed May 26 22:35:53 CST 2021 Thread1 Sale 1copies CD_saled10
+CD_saled10 Current Storage: 9
+Wed May 26 22:35:53 CST 2021 CD_rent7 has been returned by Thread2
+Wed May 26 22:35:53 CST 2021 CD_rent9 has been returned by Thread4
+saledThread2 Try Sale CD_saled10 3
+Wed May 26 22:35:53 CST 2021 Thread2 Sale 3copies CD_saled10
+CD_saled10 Current Storage: 6
+RentThread1 Try Rent CD_rent8
+Wed May 26 22:35:53 CST 2021 Thread1 Rent CD_rent8
+RentThread3 Try Rent CD_rent1
+Wed May 26 22:35:53 CST 2021 Thread3 Rent CD_rent1
+saledThread3 Try Sale CD_saled10 3
+Wed May 26 22:35:54 CST 2021 Thread3 Sale 3copies CD_saled10
+CD_saled10 Current Storage: 3
+Wed May 26 22:35:54 CST 2021 CD_rent8 has been returned by Thread1
+saledThread4 Try Sale CD_saled4 2
+Wed May 26 22:35:54 CST 2021 Thread4 Sale 2copies CD_saled4
+CD_saled4 Current Storage: 8
+Normal GetIn!
+Wed May 26 22:35:54 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:35:54 CST 2021 CD_rent1 has been returned by Thread3
+saledThread1 Try Sale CD_saled1 5
+Wed May 26 22:35:54 CST 2021 Thread1 Sale 5copies CD_saled1
+CD_saled1 Current Storage: 5
+RentThread4 Try Rent CD_rent3
+Wed May 26 22:35:54 CST 2021 Thread4 Rent CD_rent3
+saledThread2 Try Sale CD_saled2 5
+Wed May 26 22:35:54 CST 2021 Thread2 Sale 5copies CD_saled2
+CD_saled2 Current Storage: 5
+Normal GetIn!
+Wed May 26 22:35:55 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:35:55 CST 2021 CD_rent3 has been returned by Thread4
+RentThread2 Try Rent CD_rent1
+Wed May 26 22:35:55 CST 2021 Thread2 Rent CD_rent1
+RentThread1 Try Rent CD_rent4
+Wed May 26 22:35:55 CST 2021 Thread1 Rent CD_rent4
+saledThread3 Try Sale CD_saled6 2
+Wed May 26 22:35:55 CST 2021 Thread3 Sale 2copies CD_saled6
+CD_saled6 Current Storage: 8
+RentThread3 Try Rent CD_rent8
+Wed May 26 22:35:55 CST 2021 Thread3 Rent CD_rent8
+saledThread4 Try Sale CD_saled6 2
+Wed May 26 22:35:55 CST 2021 Thread4 Sale 2copies CD_saled6
+CD_saled6 Current Storage: 6
+Wed May 26 22:35:55 CST 2021 CD_rent4 has been returned by Thread1
+Wed May 26 22:35:55 CST 2021 CD_rent8 has been returned by Thread3
+Wed May 26 22:35:55 CST 2021 CD_rent1 has been returned by Thread2
+saledThread1 Try Sale CD_saled6 5
+Wed May 26 22:35:55 CST 2021 Thread1 Sale 5copies CD_saled6
+CD_saled6 Current Storage: 1
+saledThread2 Try Sale CD_saled5 5
+Wed May 26 22:35:56 CST 2021 Thread2 Sale 5copies CD_saled5
+CD_saled5 Current Storage: 5
+Normal GetIn!
+Wed May 26 22:35:56 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread4 Try Sale CD_saled2 4
+Wed May 26 22:35:56 CST 2021 Thread4 Sale 4copies CD_saled2
+CD_saled2 Current Storage: 6
+saledThread3 Try Sale CD_saled1 3
+Wed May 26 22:35:56 CST 2021 Thread3 Sale 3copies CD_saled1
+CD_saled1 Current Storage: 7
+RentThread4 Try Rent CD_rent8
+Wed May 26 22:35:56 CST 2021 Thread4 Rent CD_rent8
+RentThread3 Try Rent CD_rent3
+Wed May 26 22:35:56 CST 2021 Thread3 Rent CD_rent3
+RentThread1 Try Rent CD_rent1
+Wed May 26 22:35:56 CST 2021 Thread1 Rent CD_rent1
+RentThread2 Try Rent CD_rent5
+Wed May 26 22:35:56 CST 2021 Thread2 Rent CD_rent5
+saledThread1 Try Sale CD_saled3 5
+Wed May 26 22:35:56 CST 2021 Thread1 Sale 5copies CD_saled3
+CD_saled3 Current Storage: 5
+Wed May 26 22:35:56 CST 2021 CD_rent8 has been returned by Thread4
+Wed May 26 22:35:56 CST 2021 CD_rent3 has been returned by Thread3
+Wed May 26 22:35:56 CST 2021 CD_rent1 has been returned by Thread1
+Wed May 26 22:35:56 CST 2021 CD_rent5 has been returned by Thread2
+saledThread2 Try Sale CD_saled5 4
+Wed May 26 22:35:57 CST 2021 Thread2 Sale 4copies CD_saled5
+CD_saled5 Current Storage: 6
+Normal GetIn!
+Wed May 26 22:35:57 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread4 Try Sale CD_saled9 1
+Wed May 26 22:35:57 CST 2021 Thread4 Sale 1copies CD_saled9
+CD_saled9 Current Storage: 9
+saledThread3 Try Sale CD_saled10 4
+Wed May 26 22:35:57 CST 2021 Thread3 Sale 4copies CD_saled10
+CD_saled10 Current Storage: 6
+saledThread1 Try Sale CD_saled4 3
+Wed May 26 22:35:57 CST 2021 Thread1 Sale 3copies CD_saled4
+CD_saled4 Current Storage: 7
+RentThread4 Try Rent CD_rent10
+Wed May 26 22:35:57 CST 2021 Thread4 Rent CD_rent10
+RentThread1 Try Rent CD_rent4
+Wed May 26 22:35:57 CST 2021 Thread1 Rent CD_rent4
+RentThread2 Try Rent CD_rent6
+Wed May 26 22:35:57 CST 2021 Thread2 Rent CD_rent6
+RentThread3 Try Rent CD_rent4
+RentThread3 give up CD_rent4
+RentThread3 Try Rent CD_rent7
+Wed May 26 22:35:58 CST 2021 Thread3 Rent CD_rent7
+Wed May 26 22:35:58 CST 2021 CD_rent10 has been returned by Thread4
+Normal GetIn!
+Wed May 26 22:35:58 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:35:58 CST 2021 CD_rent4 has been returned by Thread1
+Wed May 26 22:35:58 CST 2021 CD_rent6 has been returned by Thread2
+saledThread2 Try Sale CD_saled7 3
+Wed May 26 22:35:58 CST 2021 Thread2 Sale 3copies CD_saled7
+CD_saled7 Current Storage: 7
+Wed May 26 22:35:58 CST 2021 CD_rent7 has been returned by Thread3
+saledThread4 Try Sale CD_saled2 4
+Wed May 26 22:35:58 CST 2021 Thread4 Sale 4copies CD_saled2
+CD_saled2 Current Storage: 6
+saledThread3 Try Sale CD_saled4 4
+Wed May 26 22:35:58 CST 2021 Thread3 Sale 4copies CD_saled4
+CD_saled4 Current Storage: 6
+saledThread1 Try Sale CD_saled9 3
+Wed May 26 22:35:58 CST 2021 Thread1 Sale 3copies CD_saled9
+CD_saled9 Current Storage: 7
+Normal GetIn!
+Wed May 26 22:35:59 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread1 Try Rent CD_rent10
+Wed May 26 22:35:59 CST 2021 Thread1 Rent CD_rent10
+RentThread4 Try Rent CD_rent8
+Wed May 26 22:35:59 CST 2021 Thread4 Rent CD_rent8
+RentThread2 Try Rent CD_rent2
+Wed May 26 22:35:59 CST 2021 Thread2 Rent CD_rent2
+saledThread2 Try Sale CD_saled2 4
+Wed May 26 22:35:59 CST 2021 Thread2 Sale 4copies CD_saled2
+CD_saled2 Current Storage: 6
+Wed May 26 22:35:59 CST 2021 CD_rent8 has been returned by Thread4
+Wed May 26 22:35:59 CST 2021 CD_rent10 has been returned by Thread1
+RentThread3 Try Rent CD_rent1
+Wed May 26 22:35:59 CST 2021 CD_rent2 has been returned by Thread2
+Wed May 26 22:35:59 CST 2021 Thread3 Rent CD_rent1
+saledThread4 Try Sale CD_saled4 4
+Wed May 26 22:35:59 CST 2021 Thread4 Sale 4copies CD_saled4
+CD_saled4 Current Storage: 6
+saledThread3 Try Sale CD_saled7 5
+Wed May 26 22:35:59 CST 2021 Thread3 Sale 5copies CD_saled7
+CD_saled7 Current Storage: 5
+Wed May 26 22:35:59 CST 2021 CD_rent1 has been returned by Thread3
+saledThread1 Try Sale CD_saled3 2
+Wed May 26 22:35:59 CST 2021 Thread1 Sale 2copies CD_saled3
+CD_saled3 Current Storage: 8
+Normal GetIn!
+Wed May 26 22:36:00 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread2 Try Rent CD_rent7
+Wed May 26 22:36:00 CST 2021 Thread2 Rent CD_rent7
+saledThread2 Try Sale CD_saled8 5
+Wed May 26 22:36:00 CST 2021 Thread2 Sale 5copies CD_saled8
+CD_saled8 Current Storage: 5
+saledThread4 Try Sale CD_saled7 2
+Wed May 26 22:36:00 CST 2021 Thread4 Sale 2copies CD_saled7
+CD_saled7 Current Storage: 8
+saledThread3 Try Sale CD_saled5 5
+Wed May 26 22:36:00 CST 2021 Thread3 Sale 5copies CD_saled5
+CD_saled5 Current Storage: 5
+RentThread4 Try Rent CD_rent1
+Wed May 26 22:36:00 CST 2021 Thread4 Rent CD_rent1
+RentThread1 Try Rent CD_rent1
+CD_rent1isn't avaliable
+CD_rent1 wait others to return 
+Wed May 26 22:36:00 CST 2021 CD_rent1 has been returned by Thread4
+Wed May 26 22:36:00 CST 2021 CD_rent7 has been returned by Thread2
+RentThread3 Try Rent CD_rent5
+Wed May 26 22:36:00 CST 2021 Thread3 Rent CD_rent5
+saledThread1 Try Sale CD_saled9 4
+Wed May 26 22:36:00 CST 2021 Thread1 Sale 4copies CD_saled9
+CD_saled9 Current Storage: 6
+Wed May 26 22:36:01 CST 2021 CD_rent5 has been returned by Thread3
+Normal GetIn!
+Wed May 26 22:36:01 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread2 Try Sale CD_saled4 1
+Wed May 26 22:36:01 CST 2021 Thread2 Sale 1copies CD_saled4
+CD_saled4 Current Storage: 9
+saledThread4 Try Sale CD_saled2 1
+Wed May 26 22:36:01 CST 2021 Thread4 Sale 1copies CD_saled2
+CD_saled2 Current Storage: 9
+Wed May 26 22:36:01 CST 2021 Thread1 Rent CD_rent1
+RentThread4 Try Rent CD_rent6
+Wed May 26 22:36:01 CST 2021 Thread4 Rent CD_rent6
+RentThread2 Try Rent CD_rent6
+CD_rent6isn't avaliable
+CD_rent6 wait others to return 
+Wed May 26 22:36:01 CST 2021 CD_rent6 has been returned by Thread4
+saledThread3 Try Sale CD_saled10 1
+Wed May 26 22:36:01 CST 2021 Thread3 Sale 1copies CD_saled10
+CD_saled10 Current Storage: 9
+Wed May 26 22:36:01 CST 2021 CD_rent1 has been returned by Thread1
+saledThread1 Try Sale CD_saled10 4
+Wed May 26 22:36:02 CST 2021 Thread1 Sale 4copies CD_saled10
+CD_saled10 Current Storage: 5
+Normal GetIn!
+Wed May 26 22:36:02 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread2 Try Sale CD_saled7 2
+Wed May 26 22:36:02 CST 2021 Thread2 Sale 2copies CD_saled7
+CD_saled7 Current Storage: 8
+Wed May 26 22:36:02 CST 2021 Thread2 Rent CD_rent6
+RentThread3 Try Rent CD_rent6
+RentThread3 give up CD_rent6
+RentThread4 Try Rent CD_rent8
+Wed May 26 22:36:02 CST 2021 Thread4 Rent CD_rent8
+saledThread4 Try Sale CD_saled10 1
+Wed May 26 22:36:02 CST 2021 Thread4 Sale 1copies CD_saled10
+CD_saled10 Current Storage: 9
+saledThread3 Try Sale CD_saled4 1
+Wed May 26 22:36:02 CST 2021 Thread3 Sale 1copies CD_saled4
+CD_saled4 Current Storage: 9
+RentThread3 Try Rent CD_rent8
+CD_rent8isn't avaliable
+CD_rent8 wait others to return 
+Wed May 26 22:36:02 CST 2021 CD_rent8 has been returned by Thread4
+Wed May 26 22:36:02 CST 2021 CD_rent6 has been returned by Thread2
+RentThread1 Try Rent CD_rent9
+Wed May 26 22:36:03 CST 2021 Thread1 Rent CD_rent9
+Normal GetIn!
+Wed May 26 22:36:03 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread1 Try Sale CD_saled9 2
+Wed May 26 22:36:03 CST 2021 Thread1 Sale 2copies CD_saled9
+CD_saled9 Current Storage: 8
+Wed May 26 22:36:03 CST 2021 CD_rent9 has been returned by Thread1
+saledThread2 Try Sale CD_saled7 5
+Wed May 26 22:36:03 CST 2021 Thread2 Sale 5copies CD_saled7
+CD_saled7 Current Storage: 5
+Wed May 26 22:36:03 CST 2021 Thread3 Rent CD_rent8
+saledThread4 Try Sale CD_saled9 1
+Wed May 26 22:36:04 CST 2021 Thread4 Sale 1copies CD_saled9
+CD_saled9 Current Storage: 7
+Normal GetIn!
+Wed May 26 22:36:04 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread4 Try Rent CD_rent8
+RentThread4 give up CD_rent8
+saledThread3 Try Sale CD_saled6 5
+Wed May 26 22:36:04 CST 2021 Thread3 Sale 5copies CD_saled6
+CD_saled6 Current Storage: 5
+RentThread4 Try Rent CD_rent8
+RentThread4 give up CD_rent8
+Wed May 26 22:36:04 CST 2021 CD_rent8 has been returned by Thread3
+saledThread1 Try Sale CD_saled2 1
+Wed May 26 22:36:04 CST 2021 Thread1 Sale 1copies CD_saled2
+CD_saled2 Current Storage: 9
+RentThread2 Try Rent CD_rent9
+Wed May 26 22:36:04 CST 2021 Thread2 Rent CD_rent9
+RentThread4 Try Rent CD_rent6
+Wed May 26 22:36:04 CST 2021 Thread4 Rent CD_rent6
+RentThread1 Try Rent CD_rent9
+CD_rent9isn't avaliable
+CD_rent9 wait others to return 
+Wed May 26 22:36:04 CST 2021 CD_rent9 has been returned by Thread2
+Wed May 26 22:36:04 CST 2021 CD_rent6 has been returned by Thread4
+saledThread2 Try Sale CD_saled3 5
+Wed May 26 22:36:04 CST 2021 Thread2 Sale 5copies CD_saled3
+CD_saled3 Current Storage: 5
+Normal GetIn!
+Wed May 26 22:36:05 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread3 Try Sale CD_saled10 1
+Wed May 26 22:36:05 CST 2021 Thread3 Sale 1copies CD_saled10
+CD_saled10 Current Storage: 9
+saledThread4 Try Sale CD_saled5 1
+Wed May 26 22:36:05 CST 2021 Thread4 Sale 1copies CD_saled5
+CD_saled5 Current Storage: 9
+saledThread1 Try Sale CD_saled8 4
+Wed May 26 22:36:05 CST 2021 Thread1 Sale 4copies CD_saled8
+CD_saled8 Current Storage: 6
+Wed May 26 22:36:05 CST 2021 Thread1 Rent CD_rent9
+RentThread2 Try Rent CD_rent8
+Wed May 26 22:36:05 CST 2021 Thread2 Rent CD_rent8
+RentThread3 Try Rent CD_rent6
+Wed May 26 22:36:05 CST 2021 Thread3 Rent CD_rent6
+Wed May 26 22:36:05 CST 2021 CD_rent9 has been returned by Thread1
+Wed May 26 22:36:05 CST 2021 CD_rent8 has been returned by Thread2
+Wed May 26 22:36:05 CST 2021 CD_rent6 has been returned by Thread3
+Normal GetIn!
+Wed May 26 22:36:06 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread2 Try Sale CD_saled1 5
+Wed May 26 22:36:06 CST 2021 Thread2 Sale 5copies CD_saled1
+CD_saled1 Current Storage: 5
+saledThread3 Try Sale CD_saled5 2
+Wed May 26 22:36:06 CST 2021 Thread3 Sale 2copies CD_saled5
+CD_saled5 Current Storage: 8
+saledThread4 Try Sale CD_saled6 3
+Wed May 26 22:36:06 CST 2021 Thread4 Sale 3copies CD_saled6
+CD_saled6 Current Storage: 7
+saledThread1 Try Sale CD_saled6 3
+Wed May 26 22:36:06 CST 2021 Thread1 Sale 3copies CD_saled6
+CD_saled6 Current Storage: 4
+RentThread1 Try Rent CD_rent9
+Wed May 26 22:36:06 CST 2021 Thread1 Rent CD_rent9
+RentThread4 Try Rent CD_rent8
+Wed May 26 22:36:06 CST 2021 Thread4 Rent CD_rent8
+RentThread2 Try Rent CD_rent8
+RentThread2 give up CD_rent8
+Wed May 26 22:36:06 CST 2021 CD_rent9 has been returned by Thread1
+RentThread3 Try Rent CD_rent4
+Wed May 26 22:36:06 CST 2021 Thread3 Rent CD_rent4
+RentThread2 Try Rent CD_rent6
+Wed May 26 22:36:06 CST 2021 Thread2 Rent CD_rent6
+Wed May 26 22:36:06 CST 2021 CD_rent8 has been returned by Thread4
+Wed May 26 22:36:07 CST 2021 CD_rent4 has been returned by Thread3
+Normal GetIn!
+Wed May 26 22:36:07 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:36:07 CST 2021 CD_rent6 has been returned by Thread2
+saledThread2 Try Sale CD_saled1 2
+Wed May 26 22:36:07 CST 2021 Thread2 Sale 2copies CD_saled1
+CD_saled1 Current Storage: 8
+saledThread3 Try Sale CD_saled7 3
+Wed May 26 22:36:07 CST 2021 Thread3 Sale 3copies CD_saled7
+CD_saled7 Current Storage: 7
+saledThread4 Try Sale CD_saled9 1
+Wed May 26 22:36:07 CST 2021 Thread4 Sale 1copies CD_saled9
+CD_saled9 Current Storage: 9
+saledThread1 Try Sale CD_saled7 3
+Wed May 26 22:36:07 CST 2021 Thread1 Sale 3copies CD_saled7
+CD_saled7 Current Storage: 4
+RentThread1 Try Rent CD_rent2
+Wed May 26 22:36:07 CST 2021 Thread1 Rent CD_rent2
+RentThread4 Try Rent CD_rent2
+CD_rent2isn't avaliable
+CD_rent2 wait others to return 
+Wed May 26 22:36:08 CST 2021 CD_rent2 has been returned by Thread1
+Normal GetIn!
+Wed May 26 22:36:08 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread3 Try Rent CD_rent7
+Wed May 26 22:36:08 CST 2021 Thread3 Rent CD_rent7
+RentThread2 Try Rent CD_rent7
+CD_rent7isn't avaliable
+CD_rent7 wait others to return 
+Wed May 26 22:36:08 CST 2021 CD_rent7 has been returned by Thread3
+saledThread2 Try Sale CD_saled8 3
+Wed May 26 22:36:08 CST 2021 Thread2 Sale 3copies CD_saled8
+CD_saled8 Current Storage: 7
+saledThread4 Try Sale CD_saled2 4
+Wed May 26 22:36:08 CST 2021 Thread4 Sale 4copies CD_saled2
+CD_saled2 Current Storage: 6
+saledThread3 Try Sale CD_saled2 1
+Wed May 26 22:36:08 CST 2021 Thread3 Sale 1copies CD_saled2
+CD_saled2 Current Storage: 5
+saledThread1 Try Sale CD_saled8 2
+Wed May 26 22:36:08 CST 2021 Thread1 Sale 2copies CD_saled8
+CD_saled8 Current Storage: 5
+Wed May 26 22:36:09 CST 2021 Thread4 Rent CD_rent2
+Normal GetIn!
+Wed May 26 22:36:09 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread1 Try Rent CD_rent2
+CD_rent2isn't avaliable
+CD_rent2 wait others to return 
+Wed May 26 22:36:09 CST 2021 CD_rent2 has been returned by Thread4
+Wed May 26 22:36:09 CST 2021 Thread2 Rent CD_rent7
+RentThread3 Try Rent CD_rent6
+Wed May 26 22:36:09 CST 2021 Thread3 Rent CD_rent6
+saledThread2 Try Sale CD_saled7 3
+Wed May 26 22:36:09 CST 2021 Thread2 Sale 3copies CD_saled7
+CD_saled7 Current Storage: 7
+saledThread4 Try Sale CD_saled6 4
+Wed May 26 22:36:09 CST 2021 Thread4 Sale 4copies CD_saled6
+CD_saled6 Current Storage: 6
+Wed May 26 22:36:09 CST 2021 CD_rent7 has been returned by Thread2
+Wed May 26 22:36:09 CST 2021 CD_rent6 has been returned by Thread3
+saledThread1 Try Sale CD_saled9 3
+Wed May 26 22:36:09 CST 2021 Thread1 Sale 3copies CD_saled9
+CD_saled9 Current Storage: 7
+saledThread3 Try Sale CD_saled9 3
+Wed May 26 22:36:09 CST 2021 Thread3 Sale 3copies CD_saled9
+CD_saled9 Current Storage: 4
+Normal GetIn!
+Wed May 26 22:36:10 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:36:10 CST 2021 Thread1 Rent CD_rent2
+RentThread4 Try Rent CD_rent10
+Wed May 26 22:36:10 CST 2021 Thread4 Rent CD_rent10
+Wed May 26 22:36:10 CST 2021 CD_rent2 has been returned by Thread1
+Wed May 26 22:36:10 CST 2021 CD_rent10 has been returned by Thread4
+saledThread2 Try Sale CD_saled7 2
+Wed May 26 22:36:10 CST 2021 Thread2 Sale 2copies CD_saled7
+CD_saled7 Current Storage: 8
+saledThread4 Try Sale CD_saled4 5
+Wed May 26 22:36:10 CST 2021 Thread4 Sale 5copies CD_saled4
+CD_saled4 Current Storage: 5
+RentThread3 Try Rent CD_rent9
+Wed May 26 22:36:10 CST 2021 Thread3 Rent CD_rent9
+RentThread2 Try Rent CD_rent1
+Wed May 26 22:36:10 CST 2021 Thread2 Rent CD_rent1
+saledThread3 Try Sale CD_saled2 2
+Wed May 26 22:36:10 CST 2021 Thread3 Sale 2copies CD_saled2
+CD_saled2 Current Storage: 8
+Wed May 26 22:36:10 CST 2021 CD_rent9 has been returned by Thread3
+saledThread1 Try Sale CD_saled10 2
+Wed May 26 22:36:10 CST 2021 Thread1 Sale 2copies CD_saled10
+CD_saled10 Current Storage: 8
+Wed May 26 22:36:11 CST 2021 CD_rent1 has been returned by Thread2
+Normal GetIn!
+Wed May 26 22:36:11 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread1 Try Rent CD_rent4
+Wed May 26 22:36:11 CST 2021 Thread1 Rent CD_rent4
+RentThread4 Try Rent CD_rent7
+Wed May 26 22:36:11 CST 2021 Thread4 Rent CD_rent7
+saledThread4 Try Sale CD_saled6 4
+Wed May 26 22:36:11 CST 2021 Thread4 Sale 4copies CD_saled6
+CD_saled6 Current Storage: 6
+saledThread2 Try Sale CD_saled7 5
+Wed May 26 22:36:11 CST 2021 Thread2 Sale 5copies CD_saled7
+CD_saled7 Current Storage: 5
+Wed May 26 22:36:11 CST 2021 CD_rent4 has been returned by Thread1
+RentThread3 Try Rent CD_rent2
+Wed May 26 22:36:11 CST 2021 Thread3 Rent CD_rent2
+Wed May 26 22:36:11 CST 2021 CD_rent7 has been returned by Thread4
+saledThread3 Try Sale CD_saled5 4
+Wed May 26 22:36:12 CST 2021 Thread3 Sale 4copies CD_saled5
+CD_saled5 Current Storage: 6
+saledThread1 Try Sale CD_saled5 2
+Wed May 26 22:36:12 CST 2021 Thread1 Sale 2copies CD_saled5
+CD_saled5 Current Storage: 4
+Wed May 26 22:36:12 CST 2021 CD_rent2 has been returned by Thread3
+Normal GetIn!
+Wed May 26 22:36:12 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread2 Try Rent CD_rent10
+Wed May 26 22:36:12 CST 2021 Thread2 Rent CD_rent10
+Wed May 26 22:36:12 CST 2021 CD_rent10 has been returned by Thread2
+saledThread4 Try Sale CD_saled10 5
+Wed May 26 22:36:12 CST 2021 Thread4 Sale 5copies CD_saled10
+CD_saled10 Current Storage: 5
+saledThread2 Try Sale CD_saled6 4
+Wed May 26 22:36:12 CST 2021 Thread2 Sale 4copies CD_saled6
+CD_saled6 Current Storage: 6
+RentThread1 Try Rent CD_rent6
+Wed May 26 22:36:12 CST 2021 Thread1 Rent CD_rent6
+RentThread4 Try Rent CD_rent3
+Wed May 26 22:36:13 CST 2021 Thread4 Rent CD_rent3
+RentThread3 Try Rent CD_rent2
+Wed May 26 22:36:13 CST 2021 Thread3 Rent CD_rent2
+Normal GetIn!
+Wed May 26 22:36:13 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread3 Try Sale CD_saled5 5
+Wed May 26 22:36:13 CST 2021 Thread3 Sale 5copies CD_saled5
+CD_saled5 Current Storage: 5
+saledThread1 Try Sale CD_saled1 4
+Wed May 26 22:36:13 CST 2021 Thread1 Sale 4copies CD_saled1
+CD_saled1 Current Storage: 6
+Wed May 26 22:36:13 CST 2021 CD_rent6 has been returned by Thread1
+Wed May 26 22:36:13 CST 2021 CD_rent3 has been returned by Thread4
+Wed May 26 22:36:13 CST 2021 CD_rent2 has been returned by Thread3
+saledThread2 Try Sale CD_saled5 3
+Wed May 26 22:36:13 CST 2021 Thread2 Sale 3copies CD_saled5
+CD_saled5 Current Storage: 2
+saledThread4 Try Sale CD_saled7 3
+Wed May 26 22:36:14 CST 2021 Thread4 Sale 3copies CD_saled7
+CD_saled7 Current Storage: 7
+Normal GetIn!
+Wed May 26 22:36:14 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread2 Try Rent CD_rent6
+Wed May 26 22:36:14 CST 2021 Thread2 Rent CD_rent6
+saledThread1 Try Sale CD_saled1 4
+Wed May 26 22:36:14 CST 2021 Thread1 Sale 4copies CD_saled1
+CD_saled1 Current Storage: 6
+saledThread3 Try Sale CD_saled10 5
+Wed May 26 22:36:14 CST 2021 Thread3 Sale 5copies CD_saled10
+CD_saled10 Current Storage: 5
+RentThread1 Try Rent CD_rent9
+Wed May 26 22:36:14 CST 2021 Thread1 Rent CD_rent9
+RentThread4 Try Rent CD_rent4
+Wed May 26 22:36:14 CST 2021 Thread4 Rent CD_rent4
+RentThread3 Try Rent CD_rent1
+Wed May 26 22:36:14 CST 2021 Thread3 Rent CD_rent1
+Wed May 26 22:36:14 CST 2021 CD_rent6 has been returned by Thread2
+Wed May 26 22:36:14 CST 2021 CD_rent9 has been returned by Thread1
+Wed May 26 22:36:14 CST 2021 CD_rent1 has been returned by Thread3
+Wed May 26 22:36:14 CST 2021 CD_rent4 has been returned by Thread4
+saledThread2 Try Sale CD_saled5 1
+Wed May 26 22:36:14 CST 2021 Thread2 Sale 1copies CD_saled5
+CD_saled5 Current Storage: 9
+saledThread4 Try Sale CD_saled6 4
+Wed May 26 22:36:15 CST 2021 Thread4 Sale 4copies CD_saled6
+CD_saled6 Current Storage: 6
+Normal GetIn!
+Wed May 26 22:36:15 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread1 Try Sale CD_saled5 5
+Wed May 26 22:36:15 CST 2021 Thread1 Sale 5copies CD_saled5
+CD_saled5 Current Storage: 5
+saledThread3 Try Sale CD_saled3 5
+Wed May 26 22:36:15 CST 2021 Thread3 Sale 5copies CD_saled3
+CD_saled3 Current Storage: 5
+RentThread2 Try Rent CD_rent8
+Wed May 26 22:36:15 CST 2021 Thread2 Rent CD_rent8
+RentThread1 Try Rent CD_rent1
+Wed May 26 22:36:15 CST 2021 Thread1 Rent CD_rent1
+RentThread3 Try Rent CD_rent7
+Wed May 26 22:36:15 CST 2021 Thread3 Rent CD_rent7
+RentThread4 Try Rent CD_rent8
+CD_rent8isn't avaliable
+CD_rent8 wait others to return 
+Wed May 26 22:36:15 CST 2021 CD_rent8 has been returned by Thread2
+Wed May 26 22:36:15 CST 2021 CD_rent7 has been returned by Thread3
+Wed May 26 22:36:15 CST 2021 CD_rent1 has been returned by Thread1
+saledThread2 Try Sale CD_saled8 1
+Wed May 26 22:36:16 CST 2021 Thread2 Sale 1copies CD_saled8
+CD_saled8 Current Storage: 9
+Normal GetIn!
+Wed May 26 22:36:16 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread1 Try Sale CD_saled9 1
+Wed May 26 22:36:16 CST 2021 Thread1 Sale 1copies CD_saled9
+CD_saled9 Current Storage: 9
+saledThread4 Try Sale CD_saled3 5
+Wed May 26 22:36:16 CST 2021 Thread4 Sale 5copies CD_saled3
+CD_saled3 Current Storage: 5
+saledThread3 Try Sale CD_saled1 5
+Wed May 26 22:36:16 CST 2021 Thread3 Sale 5copies CD_saled1
+CD_saled1 Current Storage: 5
+Wed May 26 22:36:16 CST 2021 Thread4 Rent CD_rent8
+RentThread2 Try Rent CD_rent6
+Wed May 26 22:36:16 CST 2021 Thread2 Rent CD_rent6
+RentThread1 Try Rent CD_rent8
+CD_rent8isn't avaliable
+CD_rent8 wait others to return 
+Wed May 26 22:36:16 CST 2021 CD_rent8 has been returned by Thread4
+Wed May 26 22:36:17 CST 2021 CD_rent6 has been returned by Thread2
+Normal GetIn!
+Wed May 26 22:36:17 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread2 Try Sale CD_saled4 3
+Wed May 26 22:36:17 CST 2021 Thread2 Sale 3copies CD_saled4
+CD_saled4 Current Storage: 7
+saledThread4 Try Sale CD_saled3 1
+Wed May 26 22:36:17 CST 2021 Thread4 Sale 1copies CD_saled3
+CD_saled3 Current Storage: 9
+saledThread1 Try Sale CD_saled9 5
+Wed May 26 22:36:17 CST 2021 Thread1 Sale 5copies CD_saled9
+CD_saled9 Current Storage: 5
+saledThread3 Try Sale CD_saled8 4
+Wed May 26 22:36:17 CST 2021 Thread3 Sale 4copies CD_saled8
+CD_saled8 Current Storage: 6
+Wed May 26 22:36:17 CST 2021 Thread1 Rent CD_rent8
+RentThread3 Try Rent CD_rent8
+RentThread3 give up CD_rent8
+RentThread3 Try Rent CD_rent8
+CD_rent8isn't avaliable
+CD_rent8 wait others to return 
+Wed May 26 22:36:18 CST 2021 CD_rent8 has been returned by Thread1
+RentThread2 Try Rent CD_rent2
+Wed May 26 22:36:18 CST 2021 Thread2 Rent CD_rent2
+RentThread4 Try Rent CD_rent10
+Wed May 26 22:36:18 CST 2021 Thread4 Rent CD_rent10
+Normal GetIn!
+Wed May 26 22:36:18 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:36:18 CST 2021 CD_rent10 has been returned by Thread4
+Wed May 26 22:36:18 CST 2021 CD_rent2 has been returned by Thread2
+saledThread4 Try Sale CD_saled1 5
+Wed May 26 22:36:18 CST 2021 Thread4 Sale 5copies CD_saled1
+CD_saled1 Current Storage: 5
+saledThread2 Try Sale CD_saled6 1
+Wed May 26 22:36:18 CST 2021 Thread2 Sale 1copies CD_saled6
+CD_saled6 Current Storage: 9
+saledThread1 Try Sale CD_saled4 4
+Wed May 26 22:36:18 CST 2021 Thread1 Sale 4copies CD_saled4
+CD_saled4 Current Storage: 6
+saledThread3 Try Sale CD_saled9 1
+Wed May 26 22:36:18 CST 2021 Thread3 Sale 1copies CD_saled9
+CD_saled9 Current Storage: 9
+Wed May 26 22:36:19 CST 2021 Thread3 Rent CD_rent8
+Normal GetIn!
+Wed May 26 22:36:19 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread1 Try Rent CD_rent9
+Wed May 26 22:36:19 CST 2021 Thread1 Rent CD_rent9
+Wed May 26 22:36:19 CST 2021 CD_rent8 has been returned by Thread3
+RentThread2 Try Rent CD_rent7
+Wed May 26 22:36:19 CST 2021 Thread2 Rent CD_rent7
+Wed May 26 22:36:19 CST 2021 CD_rent9 has been returned by Thread1
+saledThread2 Try Sale CD_saled8 4
+Wed May 26 22:36:19 CST 2021 Thread2 Sale 4copies CD_saled8
+CD_saled8 Current Storage: 6
+saledThread4 Try Sale CD_saled10 4
+Wed May 26 22:36:19 CST 2021 Thread4 Sale 4copies CD_saled10
+CD_saled10 Current Storage: 6
+Wed May 26 22:36:19 CST 2021 CD_rent7 has been returned by Thread2
+saledThread1 Try Sale CD_saled8 2
+Wed May 26 22:36:19 CST 2021 Thread1 Sale 2copies CD_saled8
+CD_saled8 Current Storage: 4
+saledThread3 Try Sale CD_saled8 1
+Wed May 26 22:36:19 CST 2021 Thread3 Sale 1copies CD_saled8
+CD_saled8 Current Storage: 3
+Normal GetIn!
+Wed May 26 22:36:20 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread4 Try Rent CD_rent8
+Wed May 26 22:36:20 CST 2021 Thread4 Rent CD_rent8
+RentThread3 Try Rent CD_rent3
+Wed May 26 22:36:20 CST 2021 Thread3 Rent CD_rent3
+RentThread1 Try Rent CD_rent6
+Wed May 26 22:36:20 CST 2021 Thread1 Rent CD_rent6
+saledThread2 Try Sale CD_saled10 3
+Wed May 26 22:36:20 CST 2021 Thread2 Sale 3copies CD_saled10
+CD_saled10 Current Storage: 7
+Wed May 26 22:36:20 CST 2021 CD_rent8 has been returned by Thread4
+RentThread2 Try Rent CD_rent3
+RentThread2 give up CD_rent3
+saledThread4 Try Sale CD_saled4 5
+Wed May 26 22:36:20 CST 2021 Thread4 Sale 5copies CD_saled4
+CD_saled4 Current Storage: 5
+RentThread2 Try Rent CD_rent6
+CD_rent6isn't avaliable
+CD_rent6 wait others to return 
+Wed May 26 22:36:20 CST 2021 CD_rent6 has been returned by Thread1
+Wed May 26 22:36:20 CST 2021 CD_rent3 has been returned by Thread3
+saledThread1 Try Sale CD_saled2 1
+Wed May 26 22:36:20 CST 2021 Thread1 Sale 1copies CD_saled2
+CD_saled2 Current Storage: 9
+saledThread3 Try Sale CD_saled2 1
+Wed May 26 22:36:21 CST 2021 Thread3 Sale 1copies CD_saled2
+CD_saled2 Current Storage: 8
+Normal GetIn!
+Wed May 26 22:36:21 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread2 Try Sale CD_saled8 5
+Wed May 26 22:36:21 CST 2021 Thread2 Sale 5copies CD_saled8
+CD_saled8 Current Storage: 5
+RentThread4 Try Rent CD_rent1
+Wed May 26 22:36:21 CST 2021 Thread4 Rent CD_rent1
+Wed May 26 22:36:21 CST 2021 Thread2 Rent CD_rent6
+RentThread3 Try Rent CD_rent9
+Wed May 26 22:36:21 CST 2021 Thread3 Rent CD_rent9
+RentThread1 Try Rent CD_rent10
+saledThread4 Try Sale CD_saled9 3
+Wed May 26 22:36:21 CST 2021 Thread1 Rent CD_rent10
+Wed May 26 22:36:21 CST 2021 Thread4 Sale 3copies CD_saled9
+CD_saled9 Current Storage: 7
+saledThread1 Try Sale CD_saled2 5
+Wed May 26 22:36:21 CST 2021 Thread1 Sale 5copies CD_saled2
+CD_saled2 Current Storage: 5
+Wed May 26 22:36:21 CST 2021 CD_rent1 has been returned by Thread4
+Wed May 26 22:36:22 CST 2021 CD_rent6 has been returned by Thread2
+saledThread3 Try Sale CD_saled5 5
+Wed May 26 22:36:22 CST 2021 Thread3 Sale 5copies CD_saled5
+CD_saled5 Current Storage: 5
+Wed May 26 22:36:22 CST 2021 CD_rent9 has been returned by Thread3
+Wed May 26 22:36:22 CST 2021 CD_rent10 has been returned by Thread1
+Normal GetIn!
+Wed May 26 22:36:22 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread2 Try Sale CD_saled1 2
+Wed May 26 22:36:22 CST 2021 Thread2 Sale 2copies CD_saled1
+CD_saled1 Current Storage: 8
+saledThread4 Try Sale CD_saled10 2
+Wed May 26 22:36:23 CST 2021 Thread4 Sale 2copies CD_saled10
+CD_saled10 Current Storage: 8
+saledThread1 Try Sale CD_saled5 3
+Wed May 26 22:36:23 CST 2021 Thread1 Sale 3copies CD_saled5
+CD_saled5 Current Storage: 7
+RentThread2 Try Rent CD_rent9
+Wed May 26 22:36:23 CST 2021 Thread2 Rent CD_rent9
+RentThread3 Try Rent CD_rent6
+Wed May 26 22:36:23 CST 2021 Thread3 Rent CD_rent6
+RentThread4 Try Rent CD_rent6
+RentThread4 give up CD_rent6
+Normal GetIn!
+Wed May 26 22:36:23 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread3 Try Sale CD_saled1 1
+Wed May 26 22:36:23 CST 2021 Thread3 Sale 1copies CD_saled1
+CD_saled1 Current Storage: 9
+RentThread1 Try Rent CD_rent10
+Wed May 26 22:36:23 CST 2021 Thread1 Rent CD_rent10
+RentThread4 Try Rent CD_rent6
+CD_rent6isn't avaliable
+CD_rent6 wait others to return 
+Wed May 26 22:36:23 CST 2021 CD_rent6 has been returned by Thread3
+Wed May 26 22:36:23 CST 2021 CD_rent9 has been returned by Thread2
+Wed May 26 22:36:23 CST 2021 CD_rent10 has been returned by Thread1
+saledThread2 Try Sale CD_saled2 4
+Wed May 26 22:36:23 CST 2021 Thread2 Sale 4copies CD_saled2
+CD_saled2 Current Storage: 6
+saledThread4 Try Sale CD_saled6 3
+Wed May 26 22:36:24 CST 2021 Thread4 Sale 3copies CD_saled6
+CD_saled6 Current Storage: 7
+saledThread1 Try Sale CD_saled3 4
+Wed May 26 22:36:24 CST 2021 Thread1 Sale 4copies CD_saled3
+CD_saled3 Current Storage: 6
+Normal GetIn!
+Wed May 26 22:36:24 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:36:24 CST 2021 Thread4 Rent CD_rent6
+RentThread3 Try Rent CD_rent7
+Wed May 26 22:36:24 CST 2021 Thread3 Rent CD_rent7
+RentThread2 Try Rent CD_rent4
+Wed May 26 22:36:24 CST 2021 Thread2 Rent CD_rent4
+saledThread3 Try Sale CD_saled1 4
+Wed May 26 22:36:24 CST 2021 Thread3 Sale 4copies CD_saled1
+CD_saled1 Current Storage: 6
+Wed May 26 22:36:24 CST 2021 CD_rent6 has been returned by Thread4
+RentThread1 Try Rent CD_rent3
+Wed May 26 22:36:24 CST 2021 Thread1 Rent CD_rent3
+Wed May 26 22:36:24 CST 2021 CD_rent7 has been returned by Thread3
+Wed May 26 22:36:24 CST 2021 CD_rent4 has been returned by Thread2
+Wed May 26 22:36:24 CST 2021 CD_rent3 has been returned by Thread1
+saledThread2 Try Sale CD_saled7 4
+Wed May 26 22:36:24 CST 2021 Thread2 Sale 4copies CD_saled7
+CD_saled7 Current Storage: 6
+saledThread4 Try Sale CD_saled7 5
+Wed May 26 22:36:25 CST 2021 Thread4 Sale 5copies CD_saled7
+CD_saled7 Current Storage: 1
+saledThread1 Try Sale CD_saled3 1
+Wed May 26 22:36:25 CST 2021 Thread1 Sale 1copies CD_saled3
+CD_saled3 Current Storage: 9
+Normal GetIn!
+Wed May 26 22:36:25 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread3 Try Sale CD_saled3 5
+Wed May 26 22:36:25 CST 2021 Thread3 Sale 5copies CD_saled3
+CD_saled3 Current Storage: 5
+RentThread4 Try Rent CD_rent7
+Wed May 26 22:36:25 CST 2021 Thread4 Rent CD_rent7
+RentThread3 Try Rent CD_rent10
+Wed May 26 22:36:25 CST 2021 Thread3 Rent CD_rent10
+RentThread2 Try Rent CD_rent1
+Wed May 26 22:36:25 CST 2021 Thread2 Rent CD_rent1
+RentThread1 Try Rent CD_rent9
+Wed May 26 22:36:25 CST 2021 Thread1 Rent CD_rent9
+saledThread2 Try Sale CD_saled2 1
+Wed May 26 22:36:25 CST 2021 Thread2 Sale 1copies CD_saled2
+CD_saled2 Current Storage: 9
+Wed May 26 22:36:25 CST 2021 CD_rent7 has been returned by Thread4
+Wed May 26 22:36:26 CST 2021 CD_rent10 has been returned by Thread3
+Wed May 26 22:36:26 CST 2021 CD_rent9 has been returned by Thread1
+Wed May 26 22:36:26 CST 2021 CD_rent1 has been returned by Thread2
+saledThread4 Try Sale CD_saled1 1
+Wed May 26 22:36:26 CST 2021 Thread4 Sale 1copies CD_saled1
+CD_saled1 Current Storage: 9
+Normal GetIn!
+Wed May 26 22:36:26 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread1 Try Sale CD_saled9 4
+Wed May 26 22:36:26 CST 2021 Thread1 Sale 4copies CD_saled9
+CD_saled9 Current Storage: 6
+saledThread3 Try Sale CD_saled2 4
+Wed May 26 22:36:26 CST 2021 Thread3 Sale 4copies CD_saled2
+CD_saled2 Current Storage: 6
+RentThread4 Try Rent CD_rent6
+Wed May 26 22:36:27 CST 2021 Thread4 Rent CD_rent6
+saledThread2 Try Sale CD_saled2 5
+Wed May 26 22:36:27 CST 2021 Thread2 Sale 5copies CD_saled2
+CD_saled2 Current Storage: 1
+RentThread3 Try Rent CD_rent3
+Wed May 26 22:36:27 CST 2021 Thread3 Rent CD_rent3
+saledThread4 Try Sale CD_saled4 3
+Wed May 26 22:36:27 CST 2021 Thread4 Sale 3copies CD_saled4
+CD_saled4 Current Storage: 7
+Normal GetIn!
+Wed May 26 22:36:27 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread1 Try Rent CD_rent5
+Wed May 26 22:36:27 CST 2021 Thread1 Rent CD_rent5
+RentThread2 Try Rent CD_rent6
+CD_rent6isn't avaliable
+CD_rent6 wait others to return 
+Wed May 26 22:36:27 CST 2021 CD_rent6 has been returned by Thread4
+saledThread1 Try Sale CD_saled6 1
+Wed May 26 22:36:27 CST 2021 Thread1 Sale 1copies CD_saled6
+CD_saled6 Current Storage: 9
+Wed May 26 22:36:27 CST 2021 CD_rent3 has been returned by Thread3
+Wed May 26 22:36:27 CST 2021 CD_rent5 has been returned by Thread1
+saledThread3 Try Sale CD_saled5 1
+Wed May 26 22:36:27 CST 2021 Thread3 Sale 1copies CD_saled5
+CD_saled5 Current Storage: 9
+saledThread2 Try Sale CD_saled5 4
+Wed May 26 22:36:28 CST 2021 Thread2 Sale 4copies CD_saled5
+CD_saled5 Current Storage: 5
+saledThread4 Try Sale CD_saled8 3
+Wed May 26 22:36:28 CST 2021 Thread4 Sale 3copies CD_saled8
+CD_saled8 Current Storage: 7
+Normal GetIn!
+Wed May 26 22:36:28 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:36:28 CST 2021 Thread2 Rent CD_rent6
+RentThread4 Try Rent CD_rent1
+Wed May 26 22:36:28 CST 2021 Thread4 Rent CD_rent1
+RentThread3 Try Rent CD_rent6
+CD_rent6isn't avaliable
+CD_rent6 wait others to return 
+Wed May 26 22:36:28 CST 2021 CD_rent6 has been returned by Thread2
+saledThread1 Try Sale CD_saled5 1
+Wed May 26 22:36:28 CST 2021 Thread1 Sale 1copies CD_saled5
+CD_saled5 Current Storage: 9
+RentThread1 Try Rent CD_rent8
+Wed May 26 22:36:28 CST 2021 Thread1 Rent CD_rent8
+Wed May 26 22:36:28 CST 2021 CD_rent1 has been returned by Thread4
+Wed May 26 22:36:28 CST 2021 CD_rent8 has been returned by Thread1
+saledThread3 Try Sale CD_saled9 4
+Wed May 26 22:36:28 CST 2021 Thread3 Sale 4copies CD_saled9
+CD_saled9 Current Storage: 6
+saledThread2 Try Sale CD_saled10 3
+Wed May 26 22:36:29 CST 2021 Thread2 Sale 3copies CD_saled10
+CD_saled10 Current Storage: 7
+Normal GetIn!
+Wed May 26 22:36:29 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread4 Try Sale CD_saled3 1
+Wed May 26 22:36:29 CST 2021 Thread4 Sale 1copies CD_saled3
+CD_saled3 Current Storage: 9
+Wed May 26 22:36:29 CST 2021 Thread3 Rent CD_rent6
+RentThread2 Try Rent CD_rent7
+Wed May 26 22:36:29 CST 2021 Thread2 Rent CD_rent7
+saledThread1 Try Sale CD_saled10 5
+Wed May 26 22:36:29 CST 2021 Thread1 Sale 5copies CD_saled10
+CD_saled10 Current Storage: 5
+Wed May 26 22:36:29 CST 2021 CD_rent6 has been returned by Thread3
+Wed May 26 22:36:29 CST 2021 CD_rent7 has been returned by Thread2
+RentThread4 Try Rent CD_rent8
+Wed May 26 22:36:29 CST 2021 Thread4 Rent CD_rent8
+RentThread1 Try Rent CD_rent5
+Wed May 26 22:36:29 CST 2021 Thread1 Rent CD_rent5
+saledThread3 Try Sale CD_saled7 4
+Wed May 26 22:36:29 CST 2021 Thread3 Sale 4copies CD_saled7
+CD_saled7 Current Storage: 6
+Wed May 26 22:36:30 CST 2021 CD_rent8 has been returned by Thread4
+Wed May 26 22:36:30 CST 2021 CD_rent5 has been returned by Thread1
+Normal GetIn!
+Wed May 26 22:36:30 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread2 Try Sale CD_saled10 3
+Wed May 26 22:36:30 CST 2021 Thread2 Sale 3copies CD_saled10
+CD_saled10 Current Storage: 7
+saledThread4 Try Sale CD_saled9 3
+Wed May 26 22:36:30 CST 2021 Thread4 Sale 3copies CD_saled9
+CD_saled9 Current Storage: 7
+saledThread1 Try Sale CD_saled3 1
+Wed May 26 22:36:30 CST 2021 Thread1 Sale 1copies CD_saled3
+CD_saled3 Current Storage: 9
+RentThread3 Try Rent CD_rent3
+Wed May 26 22:36:30 CST 2021 Thread3 Rent CD_rent3
+RentThread2 Try Rent CD_rent6
+Wed May 26 22:36:30 CST 2021 Thread2 Rent CD_rent6
+Wed May 26 22:36:31 CST 2021 CD_rent3 has been returned by Thread3
+saledThread3 Try Sale CD_saled8 1
+Wed May 26 22:36:31 CST 2021 Thread3 Sale 1copies CD_saled8
+CD_saled8 Current Storage: 9
+Wed May 26 22:36:31 CST 2021 CD_rent6 has been returned by Thread2
+RentThread1 Try Rent CD_rent5
+Wed May 26 22:36:31 CST 2021 Thread1 Rent CD_rent5
+RentThread4 Try Rent CD_rent4
+Wed May 26 22:36:31 CST 2021 Thread4 Rent CD_rent4
+Normal GetIn!
+Wed May 26 22:36:31 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:36:31 CST 2021 CD_rent5 has been returned by Thread1
+saledThread2 Try Sale CD_saled8 1
+Wed May 26 22:36:31 CST 2021 Thread2 Sale 1copies CD_saled8
+CD_saled8 Current Storage: 9
+Wed May 26 22:36:31 CST 2021 CD_rent4 has been returned by Thread4
+saledThread4 Try Sale CD_saled8 3
+Wed May 26 22:36:31 CST 2021 Thread4 Sale 3copies CD_saled8
+CD_saled8 Current Storage: 6
+saledThread1 Try Sale CD_saled9 5
+Wed May 26 22:36:31 CST 2021 Thread1 Sale 5copies CD_saled9
+CD_saled9 Current Storage: 5
+RentThread3 Try Rent CD_rent1
+Wed May 26 22:36:32 CST 2021 Thread3 Rent CD_rent1
+saledThread3 Try Sale CD_saled10 2
+Wed May 26 22:36:32 CST 2021 Thread3 Sale 2copies CD_saled10
+CD_saled10 Current Storage: 8
+Normal GetIn!
+Wed May 26 22:36:32 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+RentThread2 Try Rent CD_rent2
+Wed May 26 22:36:32 CST 2021 Thread2 Rent CD_rent2
+Wed May 26 22:36:32 CST 2021 CD_rent1 has been returned by Thread3
+Wed May 26 22:36:32 CST 2021 CD_rent2 has been returned by Thread2
+RentThread1 Try Rent CD_rent7
+Wed May 26 22:36:32 CST 2021 Thread1 Rent CD_rent7
+saledThread2 Try Sale CD_saled6 3
+Wed May 26 22:36:32 CST 2021 Thread2 Sale 3copies CD_saled6
+CD_saled6 Current Storage: 7
+saledThread4 Try Sale CD_saled5 2
+Wed May 26 22:36:32 CST 2021 Thread4 Sale 2copies CD_saled5
+CD_saled5 Current Storage: 8
+RentThread4 Try Rent CD_rent5
+Wed May 26 22:36:32 CST 2021 Thread4 Rent CD_rent5
+Wed May 26 22:36:32 CST 2021 CD_rent7 has been returned by Thread1
+Wed May 26 22:36:32 CST 2021 CD_rent5 has been returned by Thread4
+saledThread1 Try Sale CD_saled10 5
+Wed May 26 22:36:32 CST 2021 Thread1 Sale 5copies CD_saled10
+CD_saled10 Current Storage: 5
+Normal GetIn!
+Wed May 26 22:36:33 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+saledThread3 Try Sale CD_saled1 1
+Wed May 26 22:36:33 CST 2021 Thread3 Sale 1copies CD_saled1
+CD_saled1 Current Storage: 9
+RentThread2 Try Rent CD_rent1
+Wed May 26 22:36:33 CST 2021 Thread2 Rent CD_rent1
+saledThread4 Try Sale CD_saled5 4
+Wed May 26 22:36:33 CST 2021 Thread4 Sale 4copies CD_saled5
+CD_saled5 Current Storage: 6
+saledThread2 Try Sale CD_saled7 1
+Wed May 26 22:36:33 CST 2021 Thread2 Sale 1copies CD_saled7
+CD_saled7 Current Storage: 9
+RentThread1 Try Rent CD_rent1
+RentThread1 give up CD_rent1
+RentThread3 Try Rent CD_rent5
+Wed May 26 22:36:33 CST 2021 Thread3 Rent CD_rent5
+saledThread1 Try Sale CD_saled10 2
+Wed May 26 22:36:33 CST 2021 Thread1 Sale 2copies CD_saled10
+CD_saled10 Current Storage: 8
+Wed May 26 22:36:33 CST 2021 CD_rent1 has been returned by Thread2
+RentThread4 Try Rent CD_rent5
+RentThread4 give up CD_rent5
+RentThread1 Try Rent CD_rent6
+Wed May 26 22:36:34 CST 2021 Thread1 Rent CD_rent6
+Wed May 26 22:36:34 CST 2021 CD_rent5 has been returned by Thread3
+Normal GetIn!
+Wed May 26 22:36:34 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:36:34 CST 2021 CD_rent6 has been returned by Thread1
+saledThread3 Try Sale CD_saled3 3
+Wed May 26 22:36:34 CST 2021 Thread3 Sale 3copies CD_saled3
+CD_saled3 Current Storage: 7
+saledThread4 Try Sale CD_saled10 3
+Wed May 26 22:36:34 CST 2021 Thread4 Sale 3copies CD_saled10
+CD_saled10 Current Storage: 7
+saledThread2 Try Sale CD_saled5 3
+Wed May 26 22:36:34 CST 2021 Thread2 Sale 3copies CD_saled5
+CD_saled5 Current Storage: 7
+RentThread4 Try Rent CD_rent1
+Wed May 26 22:36:34 CST 2021 Thread4 Rent CD_rent1
+RentThread2 Try Rent CD_rent2
+Wed May 26 22:36:35 CST 2021 Thread2 Rent CD_rent2
+saledThread1 Try Sale CD_saled6 5
+Wed May 26 22:36:35 CST 2021 Thread1 Sale 5copies CD_saled6
+CD_saled6 Current Storage: 5
+RentThread3 Try Rent CD_rent4
+Wed May 26 22:36:35 CST 2021 Thread3 Rent CD_rent4
+Wed May 26 22:36:35 CST 2021 CD_rent1 has been returned by Thread4
+Normal GetIn!
+Wed May 26 22:36:35 CST 2021 GetIn Start:
+CD_saled1 GetIn Start
+CD_saled1 Current Storage:10
+CD_saled2 GetIn Start
+CD_saled2 Current Storage:10
+CD_saled3 GetIn Start
+CD_saled3 Current Storage:10
+CD_saled4 GetIn Start
+CD_saled4 Current Storage:10
+CD_saled5 GetIn Start
+CD_saled5 Current Storage:10
+CD_saled6 GetIn Start
+CD_saled6 Current Storage:10
+CD_saled7 GetIn Start
+CD_saled7 Current Storage:10
+CD_saled8 GetIn Start
+CD_saled8 Current Storage:10
+CD_saled9 GetIn Start
+CD_saled9 Current Storage:10
+CD_saled10 GetIn Start
+CD_saled10 Current Storage:10
+Wed May 26 22:36:35 CST 2021 CD_rent2 has been returned by Thread2
