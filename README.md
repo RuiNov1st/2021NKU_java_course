@@ -4,3 +4,5 @@
 * 2.java模拟游戏
 * 3.java模拟cache
 * 4.java实现表达式求值（初级+异常）
+* 5.java模拟CD店
+* 6.java实现画笔
